@@ -5,6 +5,7 @@ $background-width:100%;
   position: relative;
   img{
     width: $background-width;
+    margin-top:-18px //背景間に隙間できる分
   }
 }
 
@@ -30,6 +31,8 @@ $background-width:100%;
 }
 
 // --------concerns
+
+
 .question{
   position: absolute;
   top: 3%; 
@@ -40,7 +43,7 @@ $background-width:100%;
 
 .concerns-case{
   position: absolute;
-  top: 12%;
+  top: 14%;
   right: 50%;
   z-index: 1;
   width: 30%;

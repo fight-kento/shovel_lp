@@ -1,10 +1,56 @@
-.content-navigation {
-  border-color: #3bbfce;
-  color: #2b9eab;
+.background {
+  position: relative;
+}
+.background img {
+  width: 100%;
 }
 
-.border {
-  padding: 8px;
-  margin: 8px;
-  border-color: #3bbfce;
+#top {
+  margin-top: 24px;
+  position: relative;
+}
+
+.line-btn {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  right: 5%;
+  width: 25%;
+  z-index: 1;
+  transform: translate(0, -50%);
+}
+.line-btn img {
+  display: block;
+  width: 100%;
+}
+
+.question {
+  position: absolute;
+  top: 3%;
+  left: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+.concerns-case {
+  position: absolute;
+  top: 12%;
+  right: 50%;
+  z-index: 1;
+  width: 30%;
+}
+.concerns-case img {
+  width: 113%;
+}
+
+.concern_1 {
+  transform: translate(0, 0);
+}
+
+.concern_2 {
+  transform: translate(125%, -50%);
+}
+
+.concern_3 {
+  transform: translate(0, -75%);
 }/*# sourceMappingURL=home.css.map */

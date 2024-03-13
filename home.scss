@@ -1,13 +1,67 @@
-$blue: #3bbfce;
-$margin: 16px;
+$background-width:100%;
 
-.content-navigation {
-  border-color: $blue;
-  color: darken($blue, 10%);
+// 全体
+.background{
+  position: relative;
+  img{
+    width: $background-width;
+    margin-top:-18px //背景間に隙間できる分
+  }
 }
 
-.border {
-  padding: $margin / 2;
-  margin: $margin / 2;
-  border-color: $blue;
+
+//-------- top
+#top{
+  margin-top: 24px;
+  position: relative;
 }
+
+.line-btn {
+  display: inline-block;
+  position: absolute; 
+  top: 100%; 
+  right: 5%; 
+  width: 25%;
+  z-index: 1; 
+  transform: translate(0, -50%); 
+  img{
+    display: block;
+    width: 100%;
+  }
+}
+
+// --------concerns
+
+
+.question{
+  position: absolute;
+  top: 3%; 
+  left: 0; 
+  width: 50%;
+  z-index: 1; 
+}
+
+.concerns-case{
+  position: absolute;
+  top: 14%;
+  right: 50%;
+  z-index: 1;
+  width: 30%;
+  img{
+    width: 113%;
+
+  }
+}
+
+.concern_1{
+  transform: translate(0, 0); 
+}
+
+.concern_2{
+  transform: translate(125%, -50%); 
+}
+
+.concern_3{
+  transform: translate(0, -75%); 
+}
+

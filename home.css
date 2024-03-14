@@ -3,12 +3,11 @@
 }
 .background img {
   width: 100%;
-  margin-top: -18px;
+  margin-top: -24px;
 }
 
 #top {
   margin-top: 24px;
-  position: relative;
 }
 
 .line-btn {
@@ -54,4 +53,60 @@
 
 .concern_3 {
   transform: translate(0, -75%);
+}
+
+.qualities_title {
+  position: relative;
+}
+.qualities_title img {
+  width: 100%;
+  margin-top: -18px;
+}
+
+.qualities_message {
+  position: absolute;
+  top: 14%;
+  width: 36%;
+  z-index: 1;
+  transform: translate(0, -50%);
+}
+
+.need_skill {
+  display: flex;
+  margin-top: 24px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.support {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+.support img {
+  width: 90%;
+}
+
+.support_title {
+  position: relative;
+}
+.support_title img {
+  width: 100%;
+  margin-top: 68px;
+}
+
+.support_contents {
+  text-align: center;
+  margin-top: 42px;
+}
+.support_contents img {
+  width: 80%;
+}
+
+.support_btn {
+  text-align: center;
+  margin-top: 42px;
+}
+.support_btn img {
+  width: 48%;
 }/*# sourceMappingURL=home.css.map */

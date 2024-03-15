@@ -5,18 +5,8 @@ $background-width:100%;
   position: relative;
   img{
     width: $background-width;
-    margin-top:-24px //背景間に隙間できる分
   }
 }
-
-@media screen and (max-width:1280px) {
-  .background{
-    width: 1280px;
-    overflow: hidden; 
-  }
-
-}
-
 
 //---- top ----
 #top{
@@ -78,7 +68,6 @@ $background-width:100%;
   position: relative;
   img{
     width: $background-width;
-    margin-top:-18px; //背景間に隙間できる分
   }
 }
 

@@ -1,12 +1,8 @@
-.background {
+.top_background {
   position: relative;
 }
-.background img {
+.top_background img {
   width: 100%;
-}
-
-#top {
-  margin-top: 24px;
 }
 
 .line-btn {
@@ -23,35 +19,50 @@
   width: 100%;
 }
 
+.concerns_background {
+  position: relative;
+}
+.concerns_background img {
+  width: 100%;
+}
+
 .question {
   position: absolute;
   top: 3%;
   left: 0;
-  width: 50%;
+  width: 100%;
   z-index: 1;
+}
+.question img {
+  width: 50%;
 }
 
 .concerns-case {
   position: absolute;
-  top: 14%;
-  right: 50%;
+  bottom: 0;
+  left: 0;
   z-index: 1;
-  width: 30%;
 }
 .concerns-case img {
-  width: 113%;
+  width: 100%;
 }
 
 .concern_1 {
-  transform: translate(0, 0);
+  transform: translate(40%, 0);
+  display: inline-block;
+  width: 35%;
 }
 
 .concern_2 {
-  transform: translate(125%, -50%);
+  transform: translate(60%, 60%);
+  display: inline-block;
+  width: 35%;
 }
 
 .concern_3 {
-  transform: translate(0, -75%);
+  transform: translate(40%, 0);
+  display: inline-block;
+  width: 35%;
 }
 
 .qualities_title {
@@ -103,8 +114,70 @@
 
 .support_btn {
   text-align: center;
-  margin-top: 42px;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
 .support_btn img {
-  width: 48%;
+  width: 58%;
+}
+
+.reason_background {
+  position: relative;
+}
+.reason_background img {
+  width: 100%;
+}
+
+.reason_human1 {
+  position: absolute;
+  top: 3%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.reason_human1 img {
+  width: 50%;
+}
+
+.reason_human1 {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 30%;
+  z-index: 1;
+}
+.reason_human1 img {
+  width: 100%;
+}
+
+.reason_human2 {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 25%;
+  z-index: 1;
+}
+.reason_human2 img {
+  width: 100%;
+}
+
+.reason_comparison {
+  position: absolute;
+  top: 23%;
+  text-align: center;
+  width: 100%;
+}
+.reason_comparison img {
+  width: 90%;
+}
+
+.reason_btn {
+  position: absolute;
+  top: 81%;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+.reason_btn img {
+  width: 60%;
 }/*# sourceMappingURL=home_pc.css.map */

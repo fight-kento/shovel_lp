@@ -1,17 +1,12 @@
 $background-width:100%;
-
-// ----全体----
-.background{
-  position: relative;
-  img{
-    width: $background-width;
-  }
-}
+$background-position:relative;
 
 //---- top ----
-#top{
-  margin-top: 24px;
-
+.top_background {
+position:$background-position;
+img{
+  width: 100%;
+}
 }
 
 .line-btn {
@@ -30,46 +25,63 @@ $background-width:100%;
 
 // ----concerns----
 
+.concerns_background {
+  position:$background-position;
+  img{
+    width: 100%;
+  }
+}
+
+
+
 .question{
   position: absolute;
   top: 3%; 
   left: 0; 
-  width: 50%;
-  z-index: 1; 
+  width: 100%;
+  z-index: 1;
+  img{
+    width: 50%;
+  } 
 }
 
 .concerns-case{
   position: absolute;
-  top: 14%;
-  right: 50%;
+  bottom: 0;
+  left: 0;
   z-index: 1;
-  width: 30%;
   img{
-    width: 113%;
+    width: 100%;
 
   }
 }
 
 .concern_1{
-  transform: translate(0, 0); 
+  transform: translate(40%, 0);
+  display: inline-block;
+  width:35%;
 }
 
 .concern_2{
-  transform: translate(125%, -50%); 
+  transform: translate(60%, 60%); 
+  display: inline-block;
+  width: 35%;
 }
 
 .concern_3{
-  transform: translate(0, -75%); 
+  transform: translate(40%, 0);
+  display: inline-block; 
+  width: 35%;
 }
 
 // -----qualities-----
 
 .qualities_title{
-  position: relative;
+  position:$background-position;
   img{
-    width: $background-width;
+    width: 100%;
   }
-}
+  }
 
 .qualities_message{
   position: absolute;
@@ -116,16 +128,74 @@ $background-width:100%;
 
 .support_btn{
   text-align: center;
-  margin-top: 42px;
+  margin-top: 23px;
+  margin-bottom: 23px;
   img{
-    width: 48%;
+    width: 58%;
   }
 }
 
 
+// ----reason----
+
+.reason_background {
+  position:$background-position;
+  img{
+    width: 100%;
+  }
+}
+
+.reason_human1{
+  position: absolute;
+  top: 3%; 
+  left: 0; 
+  width: 100%;
+  z-index: 1;
+  img{
+    width: 50%;
+  } 
+}
+
+.reason_human1{
+  position: absolute;
+  top: 10%; 
+  left: 0; 
+  width: 30%;
+  z-index: 1;
+  img{
+    width: 100%;
+  } 
+}
+
+.reason_human2{
+  position: absolute;
+  top: 10%; 
+  right: 0; 
+  width: 25%;
+  z-index: 1;
+  img{
+    width: 100%;
+  } 
+}
 
 
+.reason_comparison{
+  position: absolute;
+  top: 23%; 
+  text-align: center;
+  width: 100%;
+  img{
+    width: 90%;
+  } 
+}
 
-
-
-
+.reason_btn{
+  position: absolute;
+  top: 81%; 
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  img{
+    width: 60%;
+  } 
+}

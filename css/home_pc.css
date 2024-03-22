@@ -197,6 +197,7 @@
 
 .stu_human {
   position: absolute;
+  width: 100%;
   top: 15%;
 }
 
@@ -226,8 +227,15 @@
 
 #teacher {
   position: relative;
+  width: 100%;
 }
 #teacher img {
   width: 100%;
   vertical-align: bottom;
+}
+#teacher p {
+  position: absolute;
+  width: 100%;
+  bottom: 1%;
+  text-align: center;
 }/*# sourceMappingURL=home_pc.css.map */

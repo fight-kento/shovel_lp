@@ -216,6 +216,7 @@ img{
 
 .stu_human{
   position: absolute;
+  width: 100%;
   top:15%
 }
 
@@ -247,9 +248,16 @@ img{
 
 #teacher {
   position:$background-position;
+  width: 100%;
   img{
     width: 100%;
     vertical-align: bottom;
+  }
+  p{
+    position: absolute;
+    width: 100%;
+    bottom: 1%;
+    text-align: center;
   }
 }
 

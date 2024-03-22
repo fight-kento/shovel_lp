@@ -11,6 +11,7 @@ $background-position:relative;
   position:$background-position;
   img{
     width: 100%;
+    vertical-align: bottom;
   }
   }
   
@@ -45,6 +46,7 @@ $background-position:relative;
   position:$background-position;
   img{
     width: 100%;
+    vertical-align: bottom;
   }
   }
 
@@ -90,17 +92,187 @@ $background-position:relative;
 }
   
 
+//---- qualities ----
+
+#qualities{
+  img{
+    width: 100%;
+    vertical-align: bottom;
+  }
+}
+
+//---- support ----
+
+.support_ttl{
+  width: 100%;
+  img{
+    width: 100%;
+    vertical-align: bottom;
+  }
+}
+
+.support_contents{
+
+  .contents1{
+    text-align: center;
+    width: 100%;
+    img{
+      width: 90%;
+    }
+  }
+
+  .contents2{
+    text-align: center;
+    width: 100%;
+    img{
+      width: 90%;
+    }
+  }
+
+  .contents3{
+    text-align: center;
+    width: 100%;
+    img{
+      width: 90%;
+    }
+  }
+
+  .contents4{
+    text-align: center;
+    width: 100%;
+    img{
+      width: 90%;
+    }
+  }
+}
+
+.line_btn{
+  text-align: center;
+  width: 100%;
+  img{
+    width: 95%;
+  }
+}
 
 
 
 
 
+//---- reason ----
+
+.reason_top{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+
+.reason_contents{
+  position: relative;
+  top:4%;
+  width: 100%;
+  overflow-x: scroll;
+  img{
+    width: 150%;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+}
+
+.reason_scroll{
+  position: absolute;
+  top: 0;
+  left: 8%;
+  width: 18%;
+  img{
+    width: 100%;
+  }
+}
+
+.reason_btm{
+  position: relative;
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+
+.reason_btn{
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  img{
+    width: 65%;
+  }
+}
 
 
+//---- stu ----
 
+.stu_top{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
 
+.stu_1{
+  text-align: center;
+  width: 100%;
+  img{
+    width: 90%;
+  }
+}
 
+.stu_2{
+  text-align: center;
+  width: 100%;
+  img{
+    width: 90%;
+  }}
 
+.stu_3{
+  text-align: center;
+  width: 100%;
+  img{
+    width: 90%;
+  }}
+
+//---- teacher ----
+
+.teach_top{
+  position: relative;
+  width: 100%;
+  margin-top: 24px;
+  img{
+    width: 100%;
+  }
+}
+
+.teach_hum{
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  text-align: center;
+  img{
+    width: 68%;
+  }
+}
+
+.teach_contents{
+  position:$background-position;
+  width: 100%;
+  img{
+    width: 100%;
+  }
+  p{
+    position: absolute;
+    width: 100%;
+    bottom: 1%;
+    text-align: center;
+  }
+}
 
 
 

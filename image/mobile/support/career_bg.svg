@@ -1,0 +1,10 @@
+<svg width="320" height="147" viewBox="0 0 320 147" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M320 0H0V147H320V0Z" fill="#89C3EB"/>
+<path d="M320 0H0V147H320V0Z" fill="url(#pattern0)" fill-opacity="0.2"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0234375" height="0.0510204">
+<use xlink:href="#image0_517_290" transform="scale(0.0003125 0.000680272)"/>
+</pattern>
+<image id="image0_517_290" width="75" height="75" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgB7dxBEcAwDMCwdvxZBsh2YxD/JQgG4Dsz72FHrJ2/03NYEysQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQKxArECsQK7imrnsfT/MPM1XlMVEAAAAASUVORK5CYII="/>
+</defs>
+</svg>

@@ -8,6 +8,7 @@
 }
 .top_background img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .line-btn {
@@ -41,6 +42,7 @@
 }
 .concerns_background img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .concerns-case {
@@ -81,4 +83,165 @@
   position: absolute;
   left: 0;
   width: 54%;
+}
+
+#qualities img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.support_ttl {
+  width: 100%;
+}
+.support_ttl img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.support_contents .contents1 {
+  text-align: center;
+  width: 100%;
+}
+.support_contents .contents1 img {
+  width: 90%;
+}
+.support_contents .contents2 {
+  text-align: center;
+  width: 100%;
+}
+.support_contents .contents2 img {
+  width: 90%;
+}
+.support_contents .contents3 {
+  text-align: center;
+  width: 100%;
+}
+.support_contents .contents3 img {
+  width: 90%;
+}
+.support_contents .contents4 {
+  text-align: center;
+  width: 100%;
+}
+.support_contents .contents4 img {
+  width: 90%;
+}
+
+.line_btn {
+  text-align: center;
+  width: 100%;
+}
+.line_btn img {
+  width: 95%;
+}
+
+.reason_top {
+  width: 100%;
+}
+.reason_top img {
+  width: 100%;
+}
+
+.reason_contents {
+  position: relative;
+  top: 4%;
+  width: 100%;
+  overflow-x: scroll;
+}
+.reason_contents img {
+  width: 150%;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.reason_scroll {
+  position: absolute;
+  top: 0;
+  left: 8%;
+  width: 18%;
+}
+.reason_scroll img {
+  width: 100%;
+}
+
+.reason_btm {
+  position: relative;
+  width: 100%;
+}
+.reason_btm img {
+  width: 100%;
+}
+
+.reason_btn {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
+.reason_btn img {
+  width: 65%;
+}
+
+.stu_top {
+  width: 100%;
+}
+.stu_top img {
+  width: 100%;
+}
+
+.stu_1 {
+  text-align: center;
+  width: 100%;
+}
+.stu_1 img {
+  width: 90%;
+}
+
+.stu_2 {
+  text-align: center;
+  width: 100%;
+}
+.stu_2 img {
+  width: 90%;
+}
+
+.stu_3 {
+  text-align: center;
+  width: 100%;
+}
+.stu_3 img {
+  width: 90%;
+}
+
+.teach_top {
+  position: relative;
+  width: 100%;
+  margin-top: 24px;
+}
+.teach_top img {
+  width: 100%;
+}
+
+.teach_hum {
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  text-align: center;
+}
+.teach_hum img {
+  width: 68%;
+}
+
+.teach_contents {
+  position: relative;
+  width: 100%;
+}
+.teach_contents img {
+  width: 100%;
+}
+.teach_contents p {
+  position: absolute;
+  width: 100%;
+  bottom: 1%;
+  text-align: center;
 }/*# sourceMappingURL=home_mobile.css.map */

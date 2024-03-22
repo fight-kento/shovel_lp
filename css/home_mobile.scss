@@ -1,0 +1,147 @@
+$background-width:100%;
+$background-position:relative;
+
+//---- top ----
+#top{
+  position: relative;
+  z-index: 1;
+}
+
+.top_background {
+  position:$background-position;
+  img{
+    width: 100%;
+  }
+  }
+  
+  .line-btn {
+    position: absolute; 
+    text-align: center;
+    top: 69%;  
+    width: 100%;
+    z-index: 1; 
+    img{
+      width: 95%;
+    }
+  }
+
+  .top_msg {
+    position: absolute; 
+    text-align: center;
+    top: 91%;  
+    width: 100%;
+    z-index: 1; 
+    img{
+      width: 95%;
+    }
+  }
+
+//---- concerns ----
+#concerns{
+ margin-top: -30%; 
+}
+
+.concerns_background {
+  position:$background-position;
+  img{
+    width: 100%;
+  }
+  }
+
+  .concerns-case{
+    width: 100%;
+    img{
+      width: 100%;
+  
+    }
+  }
+  
+  .concern_1{
+    position: absolute;
+    top: 14%;
+    width:100%;
+    img{
+      position: absolute;
+      left: 0;
+      width: 60%;
+  }
+}
+  
+  .concern_2{
+    position: absolute;
+    top: 40%;
+    width:100%;
+    img{
+      position: absolute;
+      right: 0;
+      width: 60%;
+    }
+  }
+  
+  .concern_3{
+    position: absolute;
+    top: 65%;
+    width:100%;
+    img{
+      position: absolute;
+      left: 0;
+      width: 54%;
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

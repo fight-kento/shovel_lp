@@ -6,6 +6,7 @@ $background-position:relative;
 position:$background-position;
 img{
   width: 100%;
+  vertical-align: bottom;
 }
 }
 
@@ -29,6 +30,7 @@ img{
   position:$background-position;
   img{
     width: 100%;
+    vertical-align: bottom;
   }
 }
 
@@ -41,7 +43,7 @@ img{
   width: 100%;
   z-index: 1;
   img{
-    width: 50%;
+    width: 65%;
   } 
 }
 
@@ -52,20 +54,20 @@ img{
   z-index: 1;
   img{
     width: 100%;
-
+    vertical-align: bottom;
   }
 }
 
 .concern_1{
-  transform: translate(40%, 0);
+  transform: translate(30%, 0);
   display: inline-block;
   width:35%;
 }
 
 .concern_2{
-  transform: translate(60%, 60%); 
+  transform: translate(48%, 60%); 
   display: inline-block;
-  width: 35%;
+  width: 40%;
 }
 
 .concern_3{
@@ -76,10 +78,11 @@ img{
 
 // -----qualities-----
 
-.qualities_title{
+.qualities_background{
   position:$background-position;
   img{
     width: 100%;
+    vertical-align: bottom;
   }
   }
 
@@ -92,8 +95,9 @@ img{
 }
 
 .need_skill{
+  position: absolute;
+  top:42%;
   display: flex;
-  margin-top:24px;
   margin-left:7%;
   margin-right:7%;  
 }
@@ -113,7 +117,6 @@ img{
   position: relative;
   img{
     width: $background-width;
-    margin-top:68px;
   }
 }
 
@@ -142,6 +145,7 @@ img{
   position:$background-position;
   img{
     width: 100%;
+    vertical-align: bottom;
   }
 }
 
@@ -199,3 +203,57 @@ img{
     width: 60%;
   } 
 }
+
+// ----stu----
+
+.stu_background {
+  position:$background-position;
+  img{
+    width: 100%;
+    vertical-align: bottom;
+  }
+}
+
+.stu_human{
+  position: absolute;
+  top:15%
+}
+
+.stu_human1{
+  width: 100%;
+  text-align: center;
+  img{
+    width: 75%;
+  } 
+}
+
+.stu_human2{
+  width: 100%;
+  text-align: center;
+  img{
+    width: 75%;
+  } 
+}
+
+.stu_human3{
+  width: 100%;
+  text-align: center;
+  img{
+    width: 75%;
+  } 
+}
+
+// ----teacher----
+
+#teacher {
+  position:$background-position;
+  img{
+    width: 100%;
+    vertical-align: bottom;
+  }
+}
+
+
+
+
+

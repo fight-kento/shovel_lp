@@ -1,1 +1,84 @@
-/*# sourceMappingURL=home_mobile.css.map */
+#top {
+  position: relative;
+  z-index: 1;
+}
+
+.top_background {
+  position: relative;
+}
+.top_background img {
+  width: 100%;
+}
+
+.line-btn {
+  position: absolute;
+  text-align: center;
+  top: 69%;
+  width: 100%;
+  z-index: 1;
+}
+.line-btn img {
+  width: 95%;
+}
+
+.top_msg {
+  position: absolute;
+  text-align: center;
+  top: 91%;
+  width: 100%;
+  z-index: 1;
+}
+.top_msg img {
+  width: 95%;
+}
+
+#concerns {
+  margin-top: -30%;
+}
+
+.concerns_background {
+  position: relative;
+}
+.concerns_background img {
+  width: 100%;
+}
+
+.concerns-case {
+  width: 100%;
+}
+.concerns-case img {
+  width: 100%;
+}
+
+.concern_1 {
+  position: absolute;
+  top: 14%;
+  width: 100%;
+}
+.concern_1 img {
+  position: absolute;
+  left: 0;
+  width: 60%;
+}
+
+.concern_2 {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+.concern_2 img {
+  position: absolute;
+  right: 0;
+  width: 60%;
+}
+
+.concern_3 {
+  position: absolute;
+  top: 65%;
+  width: 100%;
+}
+.concern_3 img {
+  position: absolute;
+  left: 0;
+  width: 54%;
+}/*# sourceMappingURL=home_mobile.css.map */

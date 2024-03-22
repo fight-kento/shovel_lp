@@ -3,6 +3,7 @@
 }
 .top_background img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .line-btn {
@@ -24,6 +25,7 @@
 }
 .concerns_background img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .question {
@@ -34,7 +36,7 @@
   z-index: 1;
 }
 .question img {
-  width: 50%;
+  width: 65%;
 }
 
 .concerns-case {
@@ -45,18 +47,19 @@
 }
 .concerns-case img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .concern_1 {
-  transform: translate(40%, 0);
+  transform: translate(30%, 0);
   display: inline-block;
   width: 35%;
 }
 
 .concern_2 {
-  transform: translate(60%, 60%);
+  transform: translate(48%, 60%);
   display: inline-block;
-  width: 35%;
+  width: 40%;
 }
 
 .concern_3 {
@@ -65,11 +68,12 @@
   width: 35%;
 }
 
-.qualities_title {
+.qualities_background {
   position: relative;
 }
-.qualities_title img {
+.qualities_background img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .qualities_message {
@@ -81,8 +85,9 @@
 }
 
 .need_skill {
+  position: absolute;
+  top: 42%;
   display: flex;
-  margin-top: 24px;
   margin-left: 7%;
   margin-right: 7%;
 }
@@ -101,7 +106,6 @@
 }
 .support_title img {
   width: 100%;
-  margin-top: 68px;
 }
 
 .support_contents {
@@ -126,6 +130,7 @@
 }
 .reason_background img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .reason_human1 {
@@ -180,4 +185,49 @@
 }
 .reason_btn img {
   width: 60%;
+}
+
+.stu_background {
+  position: relative;
+}
+.stu_background img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.stu_human {
+  position: absolute;
+  top: 15%;
+}
+
+.stu_human1 {
+  width: 100%;
+  text-align: center;
+}
+.stu_human1 img {
+  width: 75%;
+}
+
+.stu_human2 {
+  width: 100%;
+  text-align: center;
+}
+.stu_human2 img {
+  width: 75%;
+}
+
+.stu_human3 {
+  width: 100%;
+  text-align: center;
+}
+.stu_human3 img {
+  width: 75%;
+}
+
+#teacher {
+  position: relative;
+}
+#teacher img {
+  width: 100%;
+  vertical-align: bottom;
 }/*# sourceMappingURL=home_pc.css.map */

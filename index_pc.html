@@ -1,94 +1,117 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>shovel_creators</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/home_pc.css">
-  
-</head>
-<body>
-  <header id="">  </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>shovel_creators</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/home_pc.css" />
+    </head>
+    <!-- MEMO: （全体を通して）画像多めの構造のため、適宜コメント残しておいた方が保守的にも楽そう（id名でわかりそうだが） -->
+    <!-- MEMO: （全体を通して）画像読み込みにめちゃくちゃ時間かかってる。loading=”lazy”とか使うとましになりそう -->
+    <body>
+        <header id=""></header>
 
-  <section id="top">
-    <div class="top_background">
-      <img src="image/pc/top/top_image.svg" alt="">
-      <div class="line-btn">
-        <img src="image/pc/top/btn2_pc.svg" alt="">
-      </div>
-    </div>
-  </section>
+        <!-- TOP画像 -->
+        <section id="top">
+            <div class="top_background">
+                <!-- MEMO: ここは背景の画像で画像一枚（jpgとか）と丸３つのパート（svg）に分けた方が良さそう -->
 
-  <section id="concerns">
-      <div class="concerns_background">
-        <img src="image/pc/concerns/concerns_bg.png" alt="">
-        <div class="question">
-          <img src="image/pc/concerns/question.svg" alt="">
-        </div>
-        <div class="concerns-case">
-          <div class="concern_1">
-            <img src="image/pc/concerns/concern_1.svg" alt="">
-          </div>
-          <div class="concern_2">
-            <img src="image/pc/concerns/concern_2.svg" alt="">
-          </div>
-          <div class="concern_3">
-            <img src="image/pc/concerns/concern_3.svg" alt="">
-          </div>
-        </div>
-      </div>
-  </section>
+                <!-- 以下、DOM構造の例 -->
+                <!-- img 背景のみ、png -->
+                <!-- img 丸三つのパート、scg、absoluteで設定 -->
 
-  <section id="qualities">
-    <div class="qualities_title">
-      <img src="image/pc/qualities/qualities_ttl.svg" alt="">
-      <div class="qualities_message">
-        <img src="image/pc/qualities/message.svg" alt="">
-      </div>
-    </div>
-    <div class="need_skill">
-      <div class="support"><img src="/image/pc/qualities/comu_card.svg" alt=""></div>
-      <div class="support"><img src="/image/pc/qualities/create_card.svg" alt=""></div>
-      <div class="support"><img src="/image/pc/qualities/lite_card.svg" alt=""></div>
-    </div>
-  </section>
+                <img src="image/pc/top/top_image.svg" alt="" />
+                <div class="line-btn">
+                    <!-- MEMO: ここは将来的にリンクになるため、画像をaタグで囲んでほしい -->
+                    <img src="image/pc/top/btn2_pc.svg" alt="" />
+                </div>
+            </div>
+        </section>
 
-  <section id="support">
-    <div class="support_title">
-      <img src="/image/pc/support/support_ttl.svg" alt="">
-    </div>
-    <div class="support_contents">
-      <img src="image/pc/support/support_1.svg" alt="">
-      <img src="image/pc/support/support_2.svg" alt="">
-      <img src="image/pc/support/support_3.svg" alt="">
-      <img src="image/pc/support/support_4.svg" alt="">
-    </div>
-    <div class="support_btn">
-      <img src="image/pc/support/btn3_pc.svg" alt="">
-    </div>
-  </section>
+        <!-- お悩み -->
+        <section id="concerns">
+            <div class="concerns_background">
+                <img src="image/pc/concerns/concerns_bg.png" alt="" />
+                <div class="question">
+                    <!-- MEMO:ここは流石にHTMLでいける気がする -->
+                    <img src="image/pc/concerns/question.svg" alt="" />
+                </div>
+                <!-- 細かいが、他のクラス名が_アンダーバーなので合わせた方がいい -->
+                <div class="concerns-case">
+                    <!-- ここの人間の画像は明確に画像データの方が良い。写真のようなデータはsvgに不向き -->
+                    <div class="concern_1">
+                        <img src="image/pc/concerns/concern_1.svg" alt="" />
+                    </div>
+                    <div class="concern_2">
+                        <img src="image/pc/concerns/concern_2.svg" alt="" />
+                    </div>
+                    <div class="concern_3">
+                        <img src="image/pc/concerns/concern_3.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section id="reason">
-    <div class="reason_background">
-      <img src="image/pc/reason/reason_ttl.svg" alt="">
-      <div class="reason_human1">
-        <img src="image/pc/reason/reason_img1.png" alt="">
-      </div>
-      <div class="reason_human2">
-        <img src="image/pc/reason/reason_img2.png" alt="">
-      </div>
-      <div class="reason_comparison">
-        <img src="image/pc/reason/reason_comparison.png" alt="">
-      </div>
-      <div class="reason_btn">
-        <img src="image/pc/reason/btn3_pc.svg" alt="">
-      </div>
-    </div>
-  </section>
+        <!-- これさえできれば -->
+        <section id="qualities">
+            <div class="qualities_title">
+                <img src="image/pc/qualities/qualities_ttl.svg" alt="" />
+                <div class="qualities_message">
+                    <img src="image/pc/qualities/message.svg" alt="" />
+                </div>
+            </div>
+            <div class="need_skill">
+                <!-- MEMO: ここのパートも必要に応じてテキストはpタグの方がいいかも？ -->
+                <div class="support">
+                    <img src="/image/pc/qualities/comu_card.svg" alt="" />
+                </div>
+                <div class="support">
+                    <img src="/image/pc/qualities/create_card.svg" alt="" />
+                </div>
+                <div class="support">
+                    <img src="/image/pc/qualities/lite_card.svg" alt="" />
+                </div>
+            </div>
+        </section>
 
+        <!-- サポート -->
+        <section id="support">
+            <div class="support_title">
+                <!-- ここも場合によってはテキストはHTMLで表現した方が良さそう -->
+                <img src="/image/pc/support/support_ttl.svg" alt="" />
+            </div>
+            <div class="support_contents">
+                <img src="image/pc/support/support_1.svg" alt="" />
+                <img src="image/pc/support/support_2.svg" alt="" />
+                <img src="image/pc/support/support_3.svg" alt="" />
+                <img src="image/pc/support/support_4.svg" alt="" />
+            </div>
+            <div class="support_btn">
+                <!-- MEMO: これもaタグで囲んでくれ -->
+                <img src="image/pc/support/btn3_pc.svg" alt="" />
+            </div>
+        </section>
 
-
-</body>
+        <section id="reason">
+            <div class="reason_background">
+                <img src="image/pc/reason/reason_ttl.svg" alt="" />
+                <div class="reason_human1">
+                    <!-- これpngなのはvery good -->
+                    <img src="image/pc/reason/reason_img1.png" alt="" />
+                </div>
+                <div class="reason_human2">
+                    <img src="image/pc/reason/reason_img2.png" alt="" />
+                </div>
+                <div class="reason_comparison">
+                    <img src="image/pc/reason/reason_comparison.png" alt="" />
+                </div>
+                <div class="reason_btn">
+                    <!-- これもaタグ囲みでオネシャス -->
+                    <img src="image/pc/reason/btn3_pc.svg" alt="" />
+                </div>
+            </div>
+        </section>
+    </body>
 </html>

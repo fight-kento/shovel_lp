@@ -11,352 +11,364 @@
     <!-- MEMO: （全体を通して）画像多めの構造のため、適宜コメント残しておいた方が保守的にも楽そう（id名でわかりそうだが） -->
     <!-- MEMO: （全体を通して）画像読み込みにめちゃくちゃ時間かかってる。loading=”lazy”とか使うとましになりそう -->
     <body>
-        <header id=""></header>
-
-        <!-- TOP画像 -->
-        <section id="top">
-            <div class="top_background">
-                <img src="image/pc/top/top_image.png" alt="" />
-                <div class="top_ttl">
-                    <img src="image/pc/top/top_words.svg" alt="" />
-                </div>
-                <div class="top_block">
-                    <div class="top_contents">
-                        <img src="image/pc/top/top1on1.png" alt="" />
-                        <p class="contents_word">
-                            マンツーマンで<br />徹底サポート
-                        </p>
+        <div class="body_container">
+            <header id=""></header>
+            <!-- TOP画像 -->
+            <section id="top">
+                <div class="top_background">
+                    <img src="image/pc/top/top_image.png" alt="" />
+                    <div class="top_ttl">
+                        <img src="image/pc/top/top_words.svg" alt="" />
                     </div>
-                    <div class="top_contents">
-                        <img src="image/pc/top/topqna.png" alt="" />
-                        <p class="contents_word">
-                            いつでも何度でも<br />質問・相談可
-                        </p>
-                    </div>
-                    <div class="top_contents">
-                        <img src="image/pc/top/toppm.png" alt="" />
-                        <p class="contents_word">
-                            PMを見据えた<br />実践的な学習
-                        </p>
-                    </div>
-                </div>
-
-                <div class="line-btn">
-                    <!-- MEMO: ここは将来的にリンクになるため、画像をaタグで囲んでほしい -->
-                    <a href="">
-                        <img src="image/pc/top/btn2_pc.svg" alt="" />
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- お悩み -->
-        <section id="concerns">
-            <div class="concerns_background">
-                <img src="image/pc/concerns/concerns_bg.png" alt="" />
-                <div class="question">
-                    <h2>
-                        転職やスクール選びに迷われている方、<br />こんなお悩みはありませんか？
-                    </h2>
-                </div>
-                <div class="concerns_case">
-                    <div class="concern1">
-                        <div class="concern1_bubble">
-                            <img
-                                src="image/pc/concerns/concern_1/bubble1.svg"
-                                alt=""
-                            />
+                    <div class="top_block">
+                        <div class="top_contents">
+                            <img src="image/pc/top/top1on1.png" alt="" />
+                            <p class="contents_word">
+                                マンツーマンで<br />徹底サポート
+                            </p>
                         </div>
-                        <div class="concern1_human">
-                            <img
-                                src="image/pc/concerns/concern_1/human1.png"
-                                alt=""
-                            />
+                        <div class="top_contents">
+                            <img src="image/pc/top/topqna.png" alt="" />
+                            <p class="contents_word">
+                                いつでも何度でも<br />質問・相談可
+                            </p>
+                        </div>
+                        <div class="top_contents">
+                            <img src="image/pc/top/toppm.png" alt="" />
+                            <p class="contents_word">
+                                PMを見据えた<br />実践的な学習
+                            </p>
                         </div>
                     </div>
-                    <div class="concern2">
-                        <div class="concern2_bubble">
-                            <img
-                                src="image/pc/concerns/concern_2/bubble2.svg"
-                                alt=""
-                            />
-                        </div>
-                        <div class="concern2_human">
-                            <img
-                                src="image/pc/concerns/concern_2/human2.png"
-                                alt=""
-                            />
-                        </div>
-                    </div>
-                    <div class="concern3">
-                        <div class="concern3_bubble">
-                            <img
-                                src="image/pc/concerns/concern_3/bubble3.svg"
-                                alt=""
-                            />
-                        </div>
-                        <div class="concern3_human">
-                            <img
-                                src="image/pc/concerns/concern_3/human3.png"
-                                alt=""
-                            />
-                        </div>
+                    <div class="line-btn">
+                        <!-- MEMO: ここは将来的にリンクになるため、画像をaタグで囲んでほしい -->
+                        <a href="">
+                            <img src="image/pc/top/btn2_pc.svg" alt="" />
+                        </a>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- これさえできれば -->
-        <section id="qualities">
-            <div class="qualities_title">
-                <img src="image/pc/qualities/qualities_ttl.png" alt="" />
-                <div class="qualities_message">
-                    <img src="image/pc/qualities/message.svg" alt="" />
-                </div>
-                <div class="need_skill">
-                    <div class="skill_contents">
-                        <img src="/image/pc/qualities/comu_card.png" alt="" />
-                        <p class="skill_word">
-                            他者との円滑な<br />コミュニケーション
-                        </p>
+            </section>
+            <!-- お悩み -->
+            <section id="concerns">
+                <div class="concerns_background">
+                    <img src="image/pc/concerns/concerns_bg.png" alt="" />
+                    <div class="question">
+                        <h2>
+                            転職やスクール選びに迷われている方、<br />こんなお悩みはありませんか？
+                        </h2>
                     </div>
-                    <div class="skill_contents">
-                        <img src="/image/pc/qualities/create_card.png" alt="" />
-                        <p class="skill_word">モノづくりを楽しめる</p>
-                    </div>
-                    <div class="skill_contents">
-                        <img src="/image/pc/qualities/lite_card.png" alt="" />
-                        <p class="skill_word">検索力／リテラシー</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- サポート -->
-        <section id="support">
-            <div class="support_title">
-                <!-- ここも場合によってはテキストはHTMLで表現した方が良さそう -->
-                <img src="/image/pc/support/support_ttl.svg" alt="" />
-            </div>
-            <div class="support_bg">
-                <img src="image/pc/support/bg_white_dot.png" alt="" />
-                <div class="support_contents">
-                    <img src="image/pc/support/support_1.svg" alt="" />
-                    <img src="image/pc/support/support_2.svg" alt="" />
-                    <img src="image/pc/support/support_3.svg" alt="" />
-                    <img src="image/pc/support/support_4.svg" alt="" />
-                </div>
-                <div class="support_btn">
-                    <!-- MEMO: これもaタグで囲んでくれ -->
-                    <img src="image/pc/support/btn3_pc.svg" alt="" />
-                </div>
-            </div>
-        </section>
-
-        <section id="reason">
-            <div class="reason_background">
-                <img src="image/pc/reason/reason_ttl.svg" alt="" />
-                <div class="reason_human1">
-                    <!-- これpngなのはvery good -->
-                    <img src="image/pc/reason/reason_img1.png" alt="" />
-                </div>
-                <div class="reason_human2">
-                    <img src="image/pc/reason/reason_img2.png" alt="" />
-                </div>
-                <div class="reason_comparison">
-                    <img src="image/pc/reason/reason_comparison.png" alt="" />
-                </div>
-                <div class="reason_btn">
-                    <a href="">
-                        <img src="image/pc/reason/btn3_pc.svg" alt="" />
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- 受講生の声 -->
-        <section id="stu">
-            <div class="stu_bg">
-                <img src="image/pc/stu/stu_bg.png" alt="" />
-                <div class="stu">
-                    <div class="stu_contents">
-                        <div class="stu_bubble">
-                            <img src="image/pc/stu/bubble1.png" alt="" />
-                            <div class="stu_comment">
-                                <p style="font-weight: bold">
-                                    学んだこと：HTML/CSS, Ruby, Ruby on Rails
-                                </p>
-                                <br />
-                                <p>
-                                    「公務員からの転職に特化」していることや「元公務員の方が講師を務めている」ことから、シャベルエンジニアへの入学を決断しました。IT系の知識や強みになるスキルがなく不安を抱えたまま入学しましたが、講師の方が親身に相談に乗ってくださり、モチベーションを保ちながら学べました。また「週1の面談」や「いつでも質問したら回答が返ってくる」おかげで、勉強の効率が上がることはもちろん、エンジニアとしてのシャベル（喋る）力も身につきました！受講してから8ヶ月で転職でき、充実したエンジニアライフが送れています！公務員からのエンジニア転職に初めは不安だらけでしたが、あの時シャベルエンジニアを選択した自分に感謝です！
-                                </p>
+                    <div class="concerns_case">
+                        <div class="concern1">
+                            <div class="concern1_bubble">
+                                <img
+                                    src="image/pc/concerns/concern_1/bubble1.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="concern1_human">
+                                <img
+                                    src="image/pc/concerns/concern_1/human1.png"
+                                    alt=""
+                                />
                             </div>
                         </div>
-                        <div class="stu_human">
-                            <div class="blue_box">
-                                <p class="white_txt">
-                                    受講生：中村健人さん<br />地方公務員→エンジニアへ転職
-                                </p>
+                        <div class="concern2">
+                            <div class="concern2_bubble">
+                                <img
+                                    src="image/pc/concerns/concern_2/bubble2.svg"
+                                    alt=""
+                                />
                             </div>
-                            <img src="image/pc/stu/stu_1.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="stu_contents">
-                        <div class="stu_human">
-                            <div class="blue_box" style="margin: -45px auto">
-                                <p class="white_txt">
-                                    受講生：知念和也さん<br />消防士→会社員<br />（副業としてプログラミング）
-                                </p>
+                            <div class="concern2_human">
+                                <img
+                                    src="image/pc/concerns/concern_2/human2.png"
+                                    alt=""
+                                />
                             </div>
-                            <img src="image/pc/stu/stu_2.png" alt="" />
                         </div>
-                        <div class="stu_bubble">
-                            <img src="image/pc/stu/bubble2.png" alt="" />
-                            <div class="stu_comment">
-                                <p style="font-weight: bold">
-                                    学んだこと：　HTML/CSS/PHP(Laravel)
-                                </p>
-                                <br />
-                                <p>
-                                    プログラミングを独学で勉強しており、挫折しかけているときに出会ったのがシャベルエンジニアでした。ユーモアのある講師がとても親身に教えてくれ、いつでも質問できる環境が整っているので、楽しく学べています。また、シャベルエンジニアでは「しゃべれるエンジニア」というスタンスで取り組んでいるため、プログラミングを学ぶだけでなく対話力も成長できる環境です。レベルにあった実務の流れにも参加させていただけるので、これからもっと学びたいと思わせてくれるスクールです。
-                                </p>
+                        <div class="concern3">
+                            <div class="concern3_bubble">
+                                <img
+                                    src="image/pc/concerns/concern_3/bubble3.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="concern3_human">
+                                <img
+                                    src="image/pc/concerns/concern_3/human3.png"
+                                    alt=""
+                                />
                             </div>
                         </div>
                     </div>
-                    <div class="stu_contents">
-                        <div class="stu_bubble">
-                            <img src="image/pc/stu/bubble3.png" alt="" />
-                            <div class="stu_comment">
-                                <p style="font-weight: bold">
-                                    学んだこと：HTML/CSS, Sass, Adobe Photoshop,
-                                    Figma
-                                </p>
-                                <br />
-                                <p>
-                                    講師の守備範囲の広さがシャベルエンジニアのすごいところ。プログラミング言語だけでなく、デザインの基本やデザインツールのことまで教わりました。実務では、実際の流れに参加させていただき、座学では学べない実践的な経験を積めるのも魅力です。また、一般的なイメージとして、技術や実績ばかりが重視されがちな業界ですが、「しゃべ（れ）る」ことや「人当たりの良さ」がWeb制作の現場でいかに重宝されるかということも教わりました。さらに、その力をどのように活かせるかということまで学べるのは、シャベルエンジニアだけではないかと思います！
-                                </p>
-                            </div>
+                </div>
+            </section>
+            <!-- これさえできれば -->
+            <section id="qualities">
+                <div class="qualities_title">
+                    <img src="image/pc/qualities/qualities_ttl.png" alt="" />
+                    <div class="qualities_message">
+                        <img src="image/pc/qualities/message.svg" alt="" />
+                    </div>
+                    <div class="need_skill">
+                        <div class="skill_contents">
+                            <img
+                                src="/image/pc/qualities/comu_card.png"
+                                alt=""
+                            />
+                            <p class="skill_word">
+                                他者との円滑な<br />コミュニケーション
+                            </p>
                         </div>
-                        <div class="stu_human">
-                            <div class="blue_box">
-                                <p class="white_txt">
-                                    受講生：松本ちなみさん<br />会社員→デザイナー（フリーランス）
-                                </p>
-                            </div>
-                            <img src="image/pc/stu/stu_3.png" alt="" />
+                        <div class="skill_contents">
+                            <img
+                                src="/image/pc/qualities/create_card.png"
+                                alt=""
+                            />
+                            <p class="skill_word">モノづくりを楽しめる</p>
+                        </div>
+                        <div class="skill_contents">
+                            <img
+                                src="/image/pc/qualities/lite_card.png"
+                                alt=""
+                            />
+                            <p class="skill_word">検索力／リテラシー</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- 講師のご紹介 -->
-        <section id="inst">
-            <div class="inst_bg">
-                <img src="image/pc/inst/inst_bg.png" alt="" />
-                <div class="inst_human">
-                    <img src="image/pc/inst/inst_human.svg" alt="" />
+            </section>
+            <!-- サポート -->
+            <section id="support">
+                <div class="support_title">
+                    <!-- ここも場合によってはテキストはHTMLで表現した方が良さそう -->
+                    <img src="/image/pc/support/support_ttl.svg" alt="" />
                 </div>
-            </div>
-        </section>
-        <!-- 特別なコンテンツ-->
-        <section id="contets">
-            <div class="contents_bg">
-                <img src="image/pc/contents/contents_bg.png" alt="" />
-                <div class="contents_point">
-                    <div class="contents_row1">
-                        <div class="point1">
-                            <h3 class="point_heading">POINT1</h3>
-                            <div class="black_box1">
-                                <div class="green_box1">
-                                    <p class="white_text">
-                                        当スクール<br />完全オリジナル
+                <div class="support_bg">
+                    <img src="image/pc/support/bg_white_dot.png" alt="" />
+                    <div class="support_contents">
+                        <img src="image/pc/support/support_1.svg" alt="" />
+                        <img src="image/pc/support/support_2.svg" alt="" />
+                        <img src="image/pc/support/support_3.svg" alt="" />
+                        <img src="image/pc/support/support_4.svg" alt="" />
+                    </div>
+                    <div class="support_btn">
+                        <!-- MEMO: これもaタグで囲んでくれ -->
+                        <img src="image/pc/support/btn3_pc.svg" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section id="reason">
+                <div class="reason_background">
+                    <img src="image/pc/reason/reason_ttl.svg" alt="" />
+                    <div class="reason_human1">
+                        <!-- これpngなのはvery good -->
+                        <img src="image/pc/reason/reason_img1.png" alt="" />
+                    </div>
+                    <div class="reason_human2">
+                        <img src="image/pc/reason/reason_img2.png" alt="" />
+                    </div>
+                    <div class="reason_comparison">
+                        <img
+                            src="image/pc/reason/reason_comparison.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="reason_btn">
+                        <a href="">
+                            <img src="image/pc/reason/btn3_pc.svg" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- 受講生の声 -->
+            <section id="stu">
+                <div class="stu_bg">
+                    <img src="image/pc/stu/stu_bg.png" alt="" />
+                    <div class="stu">
+                        <div class="stu_contents">
+                            <div class="stu_bubble">
+                                <img src="image/pc/stu/bubble1.png" alt="" />
+                                <div class="stu_comment">
+                                    <p style="font-weight: bold">
+                                        学んだこと：HTML/CSS, Ruby, Ruby on
+                                        Rails
+                                    </p>
+                                    <br />
+                                    <p>
+                                        「公務員からの転職に特化」していることや「元公務員の方が講師を務めている」ことから、シャベルエンジニアへの入学を決断しました。IT系の知識や強みになるスキルがなく不安を抱えたまま入学しましたが、講師の方が親身に相談に乗ってくださり、モチベーションを保ちながら学べました。また「週1の面談」や「いつでも質問したら回答が返ってくる」おかげで、勉強の効率が上がることはもちろん、エンジニアとしてのシャベル（喋る）力も身につきました！受講してから8ヶ月で転職でき、充実したエンジニアライフが送れています！公務員からのエンジニア転職に初めは不安だらけでしたが、あの時シャベルエンジニアを選択した自分に感謝です！
                                     </p>
                                 </div>
-                                <p class="black_text">
-                                    個別のカリキュラムで<br />ステップアップ！
-                                </p>
-                                <div class="img_box">
-                                    <img
-                                        src="image/pc/contents/contents_p1.png"
-                                        alt=""
-                                    />
-                                </div>
                             </div>
-                        </div>
-                        <div class="point2">
-                            <h3 class="point_heading">POINT2</h3>
-                            <div class="black_box2">
-                                <div class="green_box2">
-                                    <p class="white_text">
-                                        転職後の道まで<br />しっかり支える
+                            <div class="stu_human">
+                                <div class="blue_box">
+                                    <p class="white_txt">
+                                        受講生：中村健人さん<br />地方公務員→エンジニアへ転職
                                     </p>
                                 </div>
-                                <p class="black_text">
-                                    PM<span class="small-text"
-                                        >（プロジェクトマネージャー）</span
-                                    >を見据えた<br />実務経験が積める！
-                                </p>
-                                <div class="img_box">
-                                    <img
-                                        src="image/pc/contents/contents_p2.png"
-                                        alt=""
-                                    />
-                                </div>
+                                <img src="image/pc/stu/stu_1.png" alt="" />
                             </div>
                         </div>
-                        <div class="point3">
-                            <h3 class="point_heading">POINT3</h3>
-                            <div class="black_box2">
-                                <div class="green_box2">
-                                    <p class="white_text">
-                                        不安や悩みも<br />即解決！
+                        <div class="stu_contents">
+                            <div class="stu_human">
+                                <div
+                                    class="blue_box"
+                                    style="margin: -45px auto"
+                                >
+                                    <p class="white_txt">
+                                        受講生：知念和也さん<br />消防士→会社員<br />（副業としてプログラミング）
                                     </p>
                                 </div>
-                                <p class="black_text">
-                                    いつでも何度でも質問OK！<br />徹底的なサポート体制
-                                </p>
-                                <div class="img_box">
-                                    <img
-                                        src="image/pc/contents/contents_p3.png"
-                                        alt=""
-                                    />
-                                </div>
+                                <img src="image/pc/stu/stu_2.png" alt="" />
                             </div>
-                        </div>
-                    </div>
-                    <div class="contents_row2">
-                        <div class="point4">
-                            <h3 class="point_heading">POINT4</h3>
-                            <div class="black_box3">
-                                <div class="green_box3">
-                                    <p class="white_text">
-                                        受講中はもちろん、<br />卒業後も継続サポート！
+                            <div class="stu_bubble">
+                                <img src="image/pc/stu/bubble2.png" alt="" />
+                                <div class="stu_comment">
+                                    <p style="font-weight: bold">
+                                        学んだこと：　HTML/CSS/PHP(Laravel)
+                                    </p>
+                                    <br />
+                                    <p>
+                                        プログラミングを独学で勉強しており、挫折しかけているときに出会ったのがシャベルエンジニアでした。ユーモアのある講師がとても親身に教えてくれ、いつでも質問できる環境が整っているので、楽しく学べています。また、シャベルエンジニアでは「しゃべれるエンジニア」というスタンスで取り組んでいるため、プログラミングを学ぶだけでなく対話力も成長できる環境です。レベルにあった実務の流れにも参加させていただけるので、これからもっと学びたいと思わせてくれるスクールです。
                                     </p>
                                 </div>
-                                <p class="black_text">
-                                    スクール卒業後も<br />コミュニティに在籍できる
-                                </p>
-                                <p class="black_text">
-                                    正社員〜フリーランスなど<br />幅広いキャリアプランをご提案
-                                </p>
                             </div>
                         </div>
-                        <div class="point5">
-                            <h3 class="point_heading">POINT5</h3>
-                            <div class="black_box4">
-                                <div class="img_box">
-                                    <img
-                                        src="image/pc/contents/contents_p5.svg"
-                                        alt=""
-                                    />
+                        <div class="stu_contents">
+                            <div class="stu_bubble">
+                                <img src="image/pc/stu/bubble3.png" alt="" />
+                                <div class="stu_comment">
+                                    <p style="font-weight: bold">
+                                        学んだこと：HTML/CSS, Sass, Adobe
+                                        Photoshop, Figma
+                                    </p>
+                                    <br />
+                                    <p>
+                                        講師の守備範囲の広さがシャベルエンジニアのすごいところ。プログラミング言語だけでなく、デザインの基本やデザインツールのことまで教わりました。実務では、実際の流れに参加させていただき、座学では学べない実践的な経験を積めるのも魅力です。また、一般的なイメージとして、技術や実績ばかりが重視されがちな業界ですが、「しゃべ（れ）る」ことや「人当たりの良さ」がWeb制作の現場でいかに重宝されるかということも教わりました。さらに、その力をどのように活かせるかということまで学べるのは、シャベルエンジニアだけではないかと思います！
+                                    </p>
                                 </div>
+                            </div>
+                            <div class="stu_human">
+                                <div class="blue_box">
+                                    <p class="white_txt">
+                                        受講生：松本ちなみさん<br />会社員→デザイナー（フリーランス）
+                                    </p>
+                                </div>
+                                <img src="image/pc/stu/stu_3.png" alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="contents_line">
-                    <img src="image/pc/contents/btn3_pc.svg" alt="" />
+            </section>
+            <!-- 講師のご紹介 -->
+            <section id="inst">
+                <div class="inst_bg">
+                    <img src="image/pc/inst/inst_bg.png" alt="" />
+                    <div class="inst_human">
+                        <img src="image/pc/inst/inst_human.svg" alt="" />
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <!-- 特別なコンテンツ-->
+            <section id="contets">
+                <div class="contents_bg">
+                    <img src="image/pc/contents/contents_bg.png" alt="" />
+                    <div class="contents_point">
+                        <div class="contents_row1">
+                            <div class="point1">
+                                <h3 class="point_heading">POINT1</h3>
+                                <div class="black_box1">
+                                    <div class="green_box1">
+                                        <p class="white_text">
+                                            当スクール<br />完全オリジナル
+                                        </p>
+                                    </div>
+                                    <p class="black_text">
+                                        個別のカリキュラムで<br />ステップアップ！
+                                    </p>
+                                    <div class="img_box">
+                                        <img
+                                            src="image/pc/contents/contents_p1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="point2">
+                                <h3 class="point_heading">POINT2</h3>
+                                <div class="black_box2">
+                                    <div class="green_box2">
+                                        <p class="white_text">
+                                            転職後の道まで<br />しっかり支える
+                                        </p>
+                                    </div>
+                                    <p class="black_text">
+                                        PM<span class="small-text"
+                                            >（プロジェクトマネージャー）</span
+                                        >を見据えた<br />実務経験が積める！
+                                    </p>
+                                    <div class="img_box">
+                                        <img
+                                            src="image/pc/contents/contents_p2.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="point3">
+                                <h3 class="point_heading">POINT3</h3>
+                                <div class="black_box2">
+                                    <div class="green_box2">
+                                        <p class="white_text">
+                                            不安や悩みも<br />即解決！
+                                        </p>
+                                    </div>
+                                    <p class="black_text">
+                                        いつでも何度でも質問OK！<br />徹底的なサポート体制
+                                    </p>
+                                    <div class="img_box">
+                                        <img
+                                            src="image/pc/contents/contents_p3.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contents_row2">
+                            <div class="point4">
+                                <h3 class="point_heading">POINT4</h3>
+                                <div class="black_box3">
+                                    <div class="green_box3">
+                                        <p class="white_text">
+                                            受講中はもちろん、<br />卒業後も継続サポート！
+                                        </p>
+                                    </div>
+                                    <p class="black_text">
+                                        スクール卒業後も<br />コミュニティに在籍できる
+                                    </p>
+                                    <p class="black_text">
+                                        正社員〜フリーランスなど<br />幅広いキャリアプランをご提案
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="point5">
+                                <h3 class="point_heading">POINT5</h3>
+                                <div class="black_box4">
+                                    <div class="img_box">
+                                        <img
+                                            src="image/pc/contents/contents_p5.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents_line">
+                        <img src="image/pc/contents/btn3_pc.svg" alt="" />
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>

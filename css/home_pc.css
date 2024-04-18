@@ -82,7 +82,7 @@ body {
   width: 70%;
   height: 12%;
   z-index: 1;
-  background-color: #89C3EB;
+  background-color: #89c3eb;
 }
 .question h2 {
   color: white;
@@ -203,7 +203,7 @@ body {
   position: absolute;
   bottom: 8%;
   text-align: center;
-  color: #89C3EB;
+  color: #89c3eb;
   line-height: 1.4;
   font-weight: bold;
 }
@@ -368,7 +368,7 @@ body {
 .blue_box {
   position: absolute;
   width: 250px;
-  background-color: #89C3EB;
+  background-color: #89c3eb;
   padding: 20px 10px;
   margin: -30px auto;
   border-radius: 10px;
@@ -607,4 +607,4 @@ body {
 .contents_line img {
   width: 55%;
   vertical-align: bottom;
-}/*# sourceMappingURL=home_pc.css.map */
+}

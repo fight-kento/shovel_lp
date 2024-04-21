@@ -6,6 +6,7 @@ html {
 body {
     max-width: 600px;
     margin: 0 auto;
+    font-family: "hakobera_bold";
 }
 img {
     width: 100%;
@@ -17,20 +18,11 @@ img {
     flex-direction: row-reverse;
 }
 
-// 共通フォントパターン
+// 共通パターン
 .white_with_black_flame {
     color: #fff;
     -webkit-text-stroke-width: 0.1rem;
     -webkit-text-stroke-color: #3b3b3b;
-}
-.contact_button {
-    width: 96vw;
-    padding-left: 4vw;
-    // border: red solid 1px;
-    cursor: pointer;
-    &:hover {
-        opacity: 0.7;
-    }
 }
 
 // フォント読み込み
@@ -59,7 +51,7 @@ $blue: #89c3eb;
         position: relative;
         &-shovel {
             position: absolute;
-            left: 0px;
+            left: 0;
             width: 90vw;
             top: 2.5%;
         }
@@ -107,9 +99,10 @@ $blue: #89c3eb;
     border-radius: 0 0 5vw 5vw;
     position: relative;
     &_button {
+        width: 96vw;
         position: absolute;
         top: -13%;
-        z-index: 10;
+        padding-left: 4vw;
     }
     &_textarea {
         padding-top: 60vw;
@@ -302,6 +295,7 @@ $blue: #89c3eb;
 // サポート
 .support {
     background-image: url("../image/pc/support/bg_white_dot.png");
+
     &_top {
         background-image: url("../image/mobile/support/support_bg.png");
         text-align: center;
@@ -343,7 +337,7 @@ $blue: #89c3eb;
         border: rgba(217, 217, 217, 0.3) solid 0.05rem;
         position: relative;
         padding: 0 3vw 3%;
-        margin-top: 22%;
+        margin-top: 8.5rem;
         font-size: 1.6rem;
         &-flex {
             display: flex;
@@ -367,13 +361,112 @@ $blue: #89c3eb;
 .student {
     &_top {
         position: relative;
+        padding-top: 22%;
         &-flagsImg {
             position: absolute;
             z-index: -1;
+            top: -56%;
         }
         &-text {
             font-family: "hakobera_extra_bold";
             text-align: center;
+            line-height: 1.5;
+        }
+        &-megaphone {
+            width: 14vw;
+            position: absolute;
+            right: 17vw;
+            bottom: -5%;
+        }
+    }
+    &_contents {
+        width: 90vw;
+        margin: 3rem auto 0;
+    }
+    &_content {
+        margin-bottom: 1rem;
+        &-heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            width: 100%;
+        }
+        &-leftside {
+            background-color: $blue;
+            width: 65%;
+            border-radius: 1rem;
+            padding: 3vw 0;
+        }
+        &-rightside {
+            width: 30%;
+        }
+        &-name {
+            color: #fff;
+            font-family: "hakobera_bold";
+            font-size: 3vw;
+            line-height: 1;
+            text-align: center;
+        }
+        &-nameSmall {
+            color: #fff;
+            text-align: center;
+            font-size: 2.5vw;
+            line-height: 1;
+            padding-top: 0.5rem;
+        }
+        &-textarea {
+            border: #b7afa5 0.1rem solid;
+            border-radius: 1rem;
+            margin-top: 1rem;
+            padding: 2rem 5vw 1rem;
+            color: #3b3b3b;
+            line-height: 1.8;
+        }
+        &-headingText {
+            text-align: center;
+            font-size: 3vw;
+        }
+        &-text {
+            font-family: "hakobera_regular";
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+// 講師のご紹介
+.coach {
+    &_heading {
+        position: relative;
+        padding-top: 5%;
+        &-img {
+            position: absolute;
+            top: 0;
+            z-index: -1;
+            width: 100vw;
+        }
+        &-whiteText {
+            color: #fff;
+            text-align: center;
+            font-size: 10vw;
+            font-family: "hakobera_extra_bold";
+        }
+        &-text {
+            font-size: 10vw;
+            text-align: center;
+            padding-top: 3%;
+            font-family: "hakobera_extra_bold";
+        }
+        &-coachPhoto {
+            width: 70vw;
+            margin: 0 auto;
+            display: block;
+        }
+        &-coachName {
+            font-size: 2rem;
+            text-align: center;
+            color: #284877;
         }
     }
 }

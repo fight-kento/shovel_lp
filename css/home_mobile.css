@@ -26,6 +26,15 @@ img {
   -webkit-text-stroke-color: #3b3b3b;
 }
 
+.contact_button {
+  width: 96vw;
+  padding-left: 4vw;
+  cursor: pointer;
+}
+.contact_button:hover {
+  opacity: 0.7;
+}
+
 @font-face {
   font-family: "hakobera_regular";
   src: url("../font/HakoberaMaruGothicA/HakoberaMaruGothicA/HakoberaMaruGothicA-Regular.ttf") format("truetype");
@@ -92,10 +101,9 @@ img {
   position: relative;
 }
 .consultation_button {
-  width: 96vw;
   position: absolute;
   top: -13%;
-  padding-left: 4vw;
+  z-index: 10;
 }
 .consultation_textarea {
   padding-top: 60vw;
@@ -250,6 +258,16 @@ img {
 .reason_table-img {
   width: 170vw;
 }
+.reason_button {
+  margin-top: 5%;
+  display: block;
+}
+.reason_background-bottom {
+  position: absolute;
+  transform: scale(1, -1);
+  z-index: -1;
+  bottom: 0;
+}
 
 #reason_finger {
   animation-name: animation;
@@ -328,4 +346,16 @@ img {
   font-family: "hakobera_regular";
   letter-spacing: 0.15rem;
   color: #3b3b3b;
+}
+
+.student_top {
+  position: relative;
+}
+.student_top-flagsImg {
+  position: absolute;
+  z-index: -1;
+}
+.student_top-text {
+  font-family: "hakobera_extra_bold";
+  text-align: center;
 }

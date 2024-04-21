@@ -23,6 +23,15 @@ img {
     -webkit-text-stroke-width: 0.1rem;
     -webkit-text-stroke-color: #3b3b3b;
 }
+.contact_button {
+    width: 96vw;
+    padding-left: 4vw;
+    // border: red solid 1px;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.7;
+    }
+}
 
 // フォント読み込み
 @font-face {
@@ -98,10 +107,9 @@ $blue: #89c3eb;
     border-radius: 0 0 5vw 5vw;
     position: relative;
     &_button {
-        width: 96vw;
         position: absolute;
         top: -13%;
-        padding-left: 4vw;
+        z-index: 10;
     }
     &_textarea {
         padding-top: 60vw;
@@ -259,6 +267,16 @@ $blue: #89c3eb;
             width: 170vw;
         }
     }
+    &_button {
+        margin-top: 5%;
+        display: block;
+    }
+    &_background-bottom {
+        position: absolute;
+        transform: scale(1, -1);
+        z-index: -1;
+        bottom: 0;
+    }
 }
 
 // スクロールヒント
@@ -284,7 +302,6 @@ $blue: #89c3eb;
 // サポート
 .support {
     background-image: url("../image/pc/support/bg_white_dot.png");
-
     &_top {
         background-image: url("../image/mobile/support/support_bg.png");
         text-align: center;
@@ -342,6 +359,21 @@ $blue: #89c3eb;
             font-family: "hakobera_regular";
             letter-spacing: 0.15rem;
             color: #3b3b3b;
+        }
+    }
+}
+
+// 受講生の声
+.student {
+    &_top {
+        position: relative;
+        &-flagsImg {
+            position: absolute;
+            z-index: -1;
+        }
+        &-text {
+            font-family: "hakobera_extra_bold";
+            text-align: center;
         }
     }
 }

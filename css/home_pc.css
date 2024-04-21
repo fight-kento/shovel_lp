@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "hakobera_regular";
+  src: url("../font/HakoberaMaruGothicA/HakoberaMaruGothicA/HakoberaMaruGothicA-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "hakobera_bold";
+  src: url("../font/HakoberaMaruGothicA/HakoberaMaruGothicA/HakoberaMaruGothicA-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "hakobera_extra_bold";
+  src: url("../font/HakoberaMaruGothicA/HakoberaMaruGothicA/HakoberaMaruGothicA-ExtraBold.ttf") format("truetype");
+}
 body {
   background-color: rgba(137, 195, 235, 0.7);
 }
@@ -8,6 +20,12 @@ body {
   max-width: 1050px;
   min-width: 850px;
   margin: 0 auto;
+}
+
+.line_btn :hover {
+  transition-duration: 0.4s;
+  transform: translateY(4px);
+  opacity: 0.9;
 }
 
 .top_background {
@@ -26,6 +44,15 @@ body {
 }
 .top_ttl img {
   width: 100%;
+}
+
+.top_subttl {
+  position: absolute;
+  top: 43%;
+  left: 15%;
+  color: white;
+  font-size: clamp(23px, 2.5vw, 28px);
+  font-family: "hakobera_regular";
 }
 
 .top_block {
@@ -48,13 +75,14 @@ body {
 
 .contents_word {
   font-size: clamp(17px, 2vw, 21px);
+  font-family: "hakobera_regular";
   position: absolute;
   top: 18%;
   text-align: center;
   line-height: 1.3;
 }
 
-.line-btn {
+.top_linebtn {
   display: inline-block;
   position: absolute;
   top: 100%;
@@ -63,7 +91,7 @@ body {
   z-index: 1;
   transform: translate(0, -50%);
 }
-.line-btn img {
+.top_linebtn img {
   width: 100%;
   vertical-align: bottom;
 }
@@ -89,6 +117,8 @@ body {
 .question h2 {
   color: white;
   font-size: 28px;
+  font-family: "hakobera_extra_bold";
+  -webkit-text-stroke: 0.8px black;
   line-height: 1.5;
   vertical-align: bottom;
 }
@@ -126,7 +156,7 @@ body {
   flex-direction: column;
   transform: translate(75%, 0);
   width: 18%;
-  margin-top: -35%;
+  margin-top: -28%;
 }
 
 .concern2_bubble {
@@ -143,7 +173,7 @@ body {
   flex-direction: column;
   transform: translate(-172%, 0);
   width: 18%;
-  margin-top: -10%;
+  margin-top: -18%;
 }
 
 .concern3_bubble {
@@ -192,6 +222,7 @@ body {
 
 .skill_word {
   font-size: clamp(16px, 2vw, 21px);
+  font-family: "hakobera_bold";
   position: absolute;
   bottom: 8%;
   text-align: center;
@@ -201,6 +232,7 @@ body {
 }
 
 .support_title {
+  margin-top: -10px;
   position: relative;
 }
 .support_title img {
@@ -308,6 +340,7 @@ body {
 
 .stu_bg {
   position: relative;
+  margin-top: -5px;
 }
 .stu_bg img {
   width: 100%;
@@ -343,7 +376,7 @@ body {
 
 .stu_comment {
   display: flex;
-  top: 0;
+  top: -4px;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -353,9 +386,10 @@ body {
 }
 
 .stu_comment p {
-  width: 75%;
-  line-height: 20px;
-  font-size: clamp(8px, 1vw, 12px);
+  width: 70%;
+  line-height: 1.2;
+  font-size: clamp(11.5px, 1.2vw, 13px);
+  font-family: "hakobera_regular";
 }
 
 .stu_human {
@@ -368,7 +402,7 @@ body {
   position: absolute;
   width: 90%;
   background-color: #89c3eb;
-  padding: 15px 0px;
+  padding: 15px 10px;
   margin: -30px auto;
   border-radius: 10px;
   left: 0;
@@ -388,9 +422,9 @@ body {
 
 .blue_box3 {
   position: absolute;
-  width: 90%;
+  width: 95%;
   background-color: #89c3eb;
-  padding: 15px 5px;
+  padding: 15px 10px;
   margin: -52px auto;
   border-radius: 10px;
   left: 0;
@@ -400,7 +434,7 @@ body {
 .white_txt {
   color: white;
   font-size: clamp(10px, 1vw, 13px);
-  font-weight: bold;
+  font-family: "hakobera_bold";
   line-height: 1.2;
   letter-spacing: 1.5px;
 }
@@ -408,7 +442,7 @@ body {
 .white_txt2 {
   color: white;
   font-size: clamp(10px, 1vw, 13px);
-  font-weight: bold;
+  font-family: "hakobera_bold";
   line-height: 1.2;
   letter-spacing: 1.5px;
 }
@@ -524,13 +558,13 @@ body {
 .contents_row1 .white_text {
   color: white;
   font-size: 0.9rem;
-  font-weight: bold;
+  font-family: "hakobera_bold";
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .contents_row1 .black_text {
-  font-weight: bold;
   font-size: 1rem;
+  font-family: "hakobera_bold";
   line-height: 1.5;
   padding-top: 0.7rem;
   margin-top: 0px;
@@ -538,6 +572,7 @@ body {
 }
 .contents_row1 .small-text {
   font-size: 10px;
+  font-family: "hakobera_regular";
   letter-spacing: -3px;
 }
 .contents_row1 .img_box {
@@ -555,6 +590,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 12px;
 }
 .contents_row2 .point_heading {
   display: inline-block;
@@ -568,8 +604,8 @@ body {
 }
 .contents_row2 .black_box3 {
   position: relative;
-  height: 390px;
-  aspect-ratio: 3.3/4;
+  height: 300px;
+  aspect-ratio: 4.5/4;
   padding: 20px 0px;
   border: black solid 1px;
   display: flex;
@@ -581,8 +617,8 @@ body {
 }
 .contents_row2 .black_box4 {
   position: relative;
-  height: 400px;
-  aspect-ratio: 3.7/4;
+  height: 310px;
+  aspect-ratio: 4.7/4;
   padding: 15px 0px;
   border: black solid 1px;
   display: flex;
@@ -607,12 +643,12 @@ body {
 .contents_row2 .white_text {
   color: white;
   font-size: 1rem;
-  font-weight: bold;
+  font-family: "hakobera_bold";
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .contents_row2 .black_text {
-  font-weight: bold;
+  font-family: "hakobera_bold";
   font-size: 1.2rem;
   line-height: 1.5;
   padding-top: 2.4rem;
@@ -622,7 +658,6 @@ body {
 .contents_row2 .img_box {
   position: absolute;
   margin: 0 auto;
-  padding-top: 2rem;
 }
 .contents_row2 .img_box img {
   width: 72%;
@@ -632,8 +667,7 @@ body {
 .contents_line {
   position: absolute;
   bottom: 15%;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   width: 100%;
 }
 .contents_line img {
@@ -645,8 +679,8 @@ body {
   position: absolute;
   bottom: 8%;
   text-align: center;
-  font-size: clamp(17px, 2vw, 21px);
+  font-size: clamp(16px, 2vw, 18px);
   color: white;
-  font-weight: normal;
+  font-family: "hakobera_regular";
   width: 100%;
 }/*# sourceMappingURL=home_pc.css.map */

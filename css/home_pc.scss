@@ -36,10 +36,9 @@ body {
 
 .line_btn{
     :hover {
-        opacity: 0.8; 
-    }
-    :active {
-        transform: translateY(1px);
+        transition-duration: 0.4s;
+        transform: translateY(4px);
+        opacity: 0.9; 
     }
 }
 
@@ -61,6 +60,16 @@ body {
         width: 100%;
     }
 }
+
+.top_subttl{
+    position: absolute;
+    top: 43%;
+    left: 15%;
+    color: white;
+    font-size: clamp(23px, 2.5vw, 28px);
+    font-family: "hakobera_regular";
+}
+
 
 .top_block {
     position: absolute;
@@ -249,6 +258,7 @@ body {
 // -----support-----
 
 .support_title {
+    margin-top: -10px;
     position: relative;
     img {
         width: $background-width;
@@ -395,7 +405,7 @@ body {
 
 .stu_comment {
     display: flex;
-    top: 0;
+    top: -4px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -405,9 +415,9 @@ body {
 }
 
 .stu_comment p {
-    width: 75%;
-    line-height: 1.5;
-    font-size: clamp(9px, 1.1vw, 12px);
+    width: 70%;
+    line-height: 1.2;
+    font-size: clamp(11.5px, 1.2vw, 13px);
     font-family: "hakobera_regular";
 }
 
@@ -623,6 +633,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 12px;
 
     .point_heading {
         display: inline-block;
@@ -636,8 +647,8 @@ body {
     }
     .black_box3 {
         position: relative;
-        height: 330px;
-        aspect-ratio: 4.0/ 4;
+        height: 300px;
+        aspect-ratio: 4.5/ 4;
         padding: 20px 0px;
         border: black solid 1px;
         display: flex;
@@ -650,8 +661,8 @@ body {
 
     .black_box4 {
         position: relative;
-        height: 340px;
-        aspect-ratio: 4.3/ 4;
+        height: 310px;
+        aspect-ratio: 4.7/ 4;
         padding: 15px 0px;
         border: black solid 1px;
         display: flex;
@@ -695,7 +706,6 @@ body {
     .img_box {
         position: absolute;
         margin: 0 auto;
-        padding-top: 2rem;
         img {
             width: 72%;
             vertical-align: bottom;

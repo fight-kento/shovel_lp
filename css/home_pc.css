@@ -340,6 +340,7 @@ body {
 
 .stu_bg {
   position: relative;
+  margin-top: -5px;
 }
 .stu_bg img {
   width: 100%;

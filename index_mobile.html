@@ -5,23 +5,522 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>shovel_creators</title>
-        <link rel="stylesheet" href="reset.css" />
-        <link rel="stylesheet" href="home_mobile.css" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/home_mobile.css" />
     </head>
     <body>
-        <section id="top">
-            <div class="top_background">
-                <img src="image/mobile/top/top_bg.svg" alt="" />
-                <div class="line-btn">
-                    <img src="image/pc/top/btn2_sp.svg" alt="" />
+        <section class="top" id="top">
+            <div class="top_img">
+                <!-- TOP画像 -->
+                <img
+                    class="top_img-bg"
+                    src="/image/mobile/top/simple_top_sp 1.png"
+                    alt=""
+                />
+                <img
+                    class="top_img-shovel"
+                    src="./image/mobile/top/top_words 1.svg"
+                    alt=""
+                />
+                <div class="top_circle circle1">
+                    <div class="relative">
+                        <img
+                            class="top_circle-img"
+                            src="./image/mobile/top/top_circle.png"
+                            alt=""
+                        />
+                        <p class="top_circle-text">
+                            マンツーマンで<br />徹底サポート
+                        </p>
+                    </div>
+                </div>
+                <div class="top_circle circle2">
+                    <div class="relative">
+                        <img
+                            class="top_circle-img"
+                            src="./image/mobile/top/top_circle.png"
+                            alt=""
+                        />
+                        <p class="top_circle-text">
+                            いつでも何度でも<br />質問・相談可
+                        </p>
+                    </div>
+                </div>
+                <div class="top_circle circle3">
+                    <div class="relative">
+                        <img
+                            class="top_circle-img"
+                            src="./image/mobile/top/top_circle.png"
+                            alt=""
+                        />
+                        <p class="top_circle-text">
+                            PMを見据えた<br />実践的な学習
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id=""></section>
+        <section class="consultation" id="consultation">
+            <a class="consultation_button" href="" class="consultation_button">
+                <!-- 申し込み画像 -->
+                <img src="./image/mobile/common/btn_sp.svg" alt="" />
+            </a>
+            <div class="consultation_textarea">
+                <img
+                    src="./image/mobile/consultation/annoy.png"
+                    alt=""
+                    class="consultation_img"
+                />
+                <p class="consultation_text">
+                    転職やスクール選びに迷われている方<br />こんなお悩みはありませんか？
+                </p>
+            </div>
+        </section>
 
-        <section id=""></section>
-        <section id=""></section>
-        <section id=""></section>
+        <section class="concern" id="concern">
+            <div class="concern_area area1">
+                <img
+                    src="./image/pc/concerns/concern_1/bubble1.svg"
+                    alt=""
+                    class="concern_text"
+                />
+                <img
+                    src="./image/pc/concerns/concern_1/human1.png"
+                    alt=""
+                    class="concern_person"
+                />
+            </div>
+            <div class="concern_area area2">
+                <img
+                    src="./image/pc/concerns/concern_2/bubble2.svg"
+                    alt=""
+                    class="concern_text"
+                />
+                <img
+                    src="./image/pc/concerns/concern_2/human2.png"
+                    alt=""
+                    class="concern_person"
+                />
+            </div>
+            <div class="concern_area area3">
+                <img
+                    src="./image/pc/concerns/concern_3/bubble3.svg"
+                    alt=""
+                    class="concern_text"
+                />
+                <img
+                    src="./image/pc/concerns/concern_3/human3.png"
+                    alt=""
+                    class="concern_person"
+                />
+            </div>
+        </section>
+
+        <section class="qualities" id="qualities">
+            <div class="qualities_top">
+                <img
+                    class="qualities_top-img"
+                    src="./image/mobile/qualities/qualities_heading.png"
+                    alt=""
+                />
+                <p class="qualities_top-subtitle">
+                    未経験・スキルゼロの<br />公務員・会社員からでも
+                </p>
+                <p class="qualities_top-title white_with_black_flame">
+                    実は、これさえできれば<br />エンジニアになれるんです！
+                </p>
+            </div>
+            <div class="qualities_contents">
+                <div class="qualities_content">
+                    <p class="qualities_content-text">
+                        他者との円滑な<br />コミュニケーション
+                    </p>
+                    <img
+                        class="qualities_content-img"
+                        src="./image/mobile/qualities/comu.svg"
+                        alt=""
+                    />
+                </div>
+                <div class="qualities_content row_reverse">
+                    <p class="qualities_content-text">モノづくりを楽しめる</p>
+                    <img
+                        class="qualities_content-img"
+                        src="./image/mobile/qualities/create.svg"
+                        alt=""
+                    />
+                </div>
+                <div class="qualities_content">
+                    <p class="qualities_content-text">検索力／リテラシー</p>
+                    <img
+                        class="qualities_content-img"
+                        src="./image/mobile/qualities/lite.svg"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- サポートセクション -->
+        <section class="support" id="support">
+            <div class="support_top">
+                <p class="support_heading">
+                    <span class="support_heading-large white_with_black_flame"
+                        >SHOVEL ENGINEER</span
+                    ><br /><span class="support_heading-small">では、</span
+                    ><br /><span
+                        class="support_heading-middle white_with_black_flame"
+                        >未経験からのキャリア形成を<br />徹底的にサポートします！</span
+                    >
+                    <!-- TODO: svg or 擬似要素 -->
+                    <img
+                        class="support_heading-leftimage"
+                        src="./image/mobile/support/lines_leftside.png"
+                        alt=""
+                    />
+                    <img
+                        class="support_heading-rightimage"
+                        src="./image/mobile/support/lines_rightside.png"
+                        alt=""
+                    />
+                </p>
+            </div>
+            <div class="support_contents">
+                <!-- POINT1 -->
+                <div class="support_content">
+                    <div class="support_content-flex">
+                        <img
+                            class="support_content-img"
+                            src="./image/mobile/support/support_img1.svg"
+                            alt=""
+                            class="support_content-img"
+                        />
+                        <img
+                            class="support_content-bubble"
+                            src="./image/mobile/support/point1_bubble.svg"
+                            alt=""
+                            class="support_content-img"
+                        />
+                    </div>
+                    <p class="support_content-text">
+                        当スクールは、公務員からエンジニアへの転職に特化。代表自身も元公務員からWeb系の開発エンジニアに転職した実績があり、「公務員からの転職だからこそ」活かせるノウハウをお伝えします！
+                    </p>
+                </div>
+                <!-- POINT2 -->
+                <div class="support_content">
+                    <div class="support_content-flex row_reverse">
+                        <img
+                            class="support_content-img"
+                            src="./image/mobile/support/support_img2.svg"
+                            alt=""
+                            class="support_content-img"
+                        />
+                        <img
+                            class="support_content-bubble"
+                            src="./image/mobile/support/point2_bubble.svg"
+                            alt=""
+                            class="support_content-img"
+                        />
+                    </div>
+                    <p class="support_content-text">
+                        当スクールは、公務員からエンジニアへの転職に特化。代表自身も元公務員からWeb系の開発エンジニアに転職した実績があり、「公務員からの転職だからこそ」活かせるノウハウをお伝えします！
+                    </p>
+                </div>
+                <!-- POINT3 -->
+                <div class="support_content">
+                    <div class="support_content-flex">
+                        <img
+                            class="support_content-img"
+                            src="./image/mobile/support/support_img1.svg"
+                            alt=""
+                            class="support_content-img"
+                        />
+                        <img
+                            class="support_content-bubble"
+                            src="./image/mobile/support/point3_bubble.svg"
+                            alt=""
+                            class="support_content-img"
+                        />
+                    </div>
+                    <p class="support_content-text">
+                        当スクールは、公務員からエンジニアへの転職に特化。代表自身も元公務員からWeb系の開発エンジニアに転職した実績があり、「公務員からの転職だからこそ」活かせるノウハウをお伝えします！
+                    </p>
+                </div>
+                <!-- POINT4 -->
+                <div class="support_content">
+                    <div class="support_content-flex row_reverse">
+                        <img
+                            class="support_content-img"
+                            src="./image/mobile/support/support_img2.svg"
+                            alt=""
+                            class="support_content-img"
+                        />
+                        <img
+                            class="support_content-bubble"
+                            src="./image/mobile/support/point4_bubble.svg"
+                            alt=""
+                            class="support_content-img"
+                        />
+                    </div>
+                    <p class="support_content-text">
+                        当スクールは、公務員からエンジニアへの転職に特化。代表自身も元公務員からWeb系の開発エンジニアに転職した実績があり、「公務員からの転職だからこそ」活かせるノウハウをお伝えします！
+                    </p>
+                </div>
+            </div>
+            <div class="support_button">
+                <!-- 共通化 -->
+            </div>
+        </section>
+
+        <section class="reason" id="reason">
+            <div class="reason_top">
+                <h2 class="reason_top-heading">
+                    <span class="reason_top-white white_with_black_flame"
+                        >SHOVEL ENGINEER</span
+                    ><br /><span class="reason_top-small">が</span><br /><span
+                        class="reason_top-large"
+                        >選ばれる理由</span
+                    >
+                </h2>
+                <img
+                    class="reason_background"
+                    src="./image/mobile/reason/reason_bg.png"
+                    alt=""
+                />
+                <img
+                    class="reason_borderLine"
+                    src="./image/mobile/reason/border.png"
+                    alt=""
+                />
+            </div>
+            <!-- 料金表 -->
+            <div class="reason_table">
+                <div class="reason_scroll">
+                    <p class="reason_scroll-text">
+                        スクロールで<br />ご覧いただけます。
+                    </p>
+                    <!-- ここが指の画像 -->
+                    <img
+                        src="./image/mobile/reason/finger.png"
+                        alt="Scroll hint"
+                        class="reason_scroll-img"
+                        id="reason_finger"
+                    />
+                </div>
+                <img
+                    src="./image/mobile/reason/compare_table.png"
+                    alt=""
+                    class="reason_table-img"
+                />
+            </div>
+            <div class="reason_bottom">
+                <!-- 共通化 -->
+            </div>
+        </section>
+        <section id="voice">
+            <div class="voice_top">
+                <p></p>
+            </div>
+            <div class="voice_contents">
+                <div class="voice_content">
+                    <!-- flex -->
+                    <div class="voice_content-heading">
+                        <div class="voice_content-leftside">
+                            <p class="voice_content">受講生：中村 健人さん</p>
+                            <p class="voice_content">
+                                地方公務員→エンジニアへ転職
+                            </p>
+                        </div>
+                        <div class="voice_content-rightside">
+                            <img src="" alt="" class="voice_content-img" />
+                        </div>
+                    </div>
+                    <div class="voice_content-textarea">
+                        <h3 class="voice_content-headingText">
+                            学んだこと：HTML/CSS,Ruby, <br />Ruby on Rails
+                        </h3>
+                        <p class="voice_content-text">
+                            「公務員からの転職に特化」していることや、「元公務員の方が講師を務めている」ことから、シャベルエンジニアへの入学を決断しました。IT系の知識や強みになるスキルがなく不安を抱えたまま入学しましたが、講師の方が親身に相談に乗ってくださり、モチベーションを保ちながら学べました。また、「週１の面談」や「いつでも質問したら回答が返ってくる」おかげで、勉強の効率が上がることはもちろん、エンジニアとしてのシャベル（喋る）力も身につきました！受講してから8ヶ月で転職でき、充実したエンジニアライフが送れています！公務員からのエンジニア転職に初めは不安だらけでしたが、あの時シャベルエンジニアを選択した自分に感謝です！
+                        </p>
+                    </div>
+                </div>
+                <div class="voice_content">
+                    <!-- flex -->
+                    <div class="voice_content-heading">
+                        <div class="voice_content-leftside">
+                            <p class="voice_content">受講生：知念 和也さん</p>
+                            <p class="voice_content">
+                                消防士→会社員 （副業としてプログラミング）
+                            </p>
+                        </div>
+                        <div class="voice_content-rightside">
+                            <img src="" alt="" class="voice_content-img" />
+                        </div>
+                    </div>
+                    <div class="voice_content-textarea">
+                        <h3 class="voice_content-headingText">
+                            学んだこと：HTML/CSS/PHP(Laravel)
+                        </h3>
+                        <p class="voice_content-text">
+                            プログラミングを独学で勉強しており、挫折しかけているときに出会ったのがシャベルエンジニアでした。ユーモアのある講師がとても親身に教えてくれ、いつでも質問できる環境が整っているので、楽しく学べています。また、シャベルエンジニアでは「しゃべれるエンジニア」というスタンスで取り組んでいるため、プログラミングを学ぶだけでなく対話力も成長できる環境です。レベルにあった実務の流れにも参加させていただけるので、これからもっと学びたいと思わせてくれるスクールです。
+                        </p>
+                    </div>
+                </div>
+                <div class="voice_content">
+                    <!-- flex -->
+                    <div class="voice_content-heading">
+                        <div class="voice_content-leftside">
+                            <p class="voice_content">受講生：松本 ちなみさん</p>
+                            <p class="voice_content">
+                                会社員→デザイナー(フリーランス)
+                            </p>
+                        </div>
+                        <div class="voice_content-rightside">
+                            <img src="" alt="" class="voice_content-img" />
+                        </div>
+                    </div>
+                    <div class="voice_content-textarea">
+                        <h3 class="voice_content-headingText">
+                            学んだこと：HTML, CSS, Sass,<br />Adobe Photoshop,
+                            Figma
+                        </h3>
+                        <p class="voice_content-text">
+                            講師の守備範囲の広さがシャベルエンジニアのすごいところ。プログラミング言語だけでなく、デザインの基本やデザインツールのことまで教わりました。実務では、実際の流れに参加させていただき、座学では学べない実践的な経験を積めるのも魅力です。また、一般的なイメージとして、技術や実績ばかりが重視されがちな業界ですが、「しゃべ（れ）る」ことや「人当たりの良さ」がWeb制作の現場でいかに重宝されるかということも教わりました。さらに、その力をどのように活かせるかということまで学べるのは、シャベルエンジニアだけではないかと思います！
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="coach">
+            <div class="coach_heading">
+                <h2>講師のご紹介</h2>
+                <img src="" alt="" class="coach_heading-img" />
+                <p class="coach_heading-text">(講師：坂田 航)</p>
+            </div>
+            <div class="coach_textarea">
+                <h3 class="coach_textarea-heading">
+                    元公務員・文系からエンジニアへ！<br />自分らしく生きるための秘訣
+                </h3>
+                <p class="coach_text">
+                    元公務員から開発エンジニアに転職し、
+                    プロジェクトリーダーの経験を経て、
+                    現在は当スクールの代表をしている坂田と申します！ なんでスクールを始めたの？とよく聞かれるんですが、それは「もっと自分らしく、自由に働きたい人の
+                    サポートがしたい」と思ったからです。 熱い気持ちがあったり、人のためになることをしたいと思っていても、それを実現できる環境にいなくて現状に不満を抱える方をたくさん見てきました。
+                    （というか僕もそうでした。）
+                    そんな思いを持った人が一歩を踏み出す サポートをするため、
+                    そしてあなたらしさを活かした働き方を実現するため、
+                    スクールを通して尽力して参りたいと思っています！
+                </p>
+            </div>
+        </section>
+
+        <section id="special">
+            <div class="special_heading">
+                <img src="" alt="" class="special-img" />
+            </div>
+            <div class="special_contents">
+                <!-- point_ -->
+                <div class="special_content">
+                    <h3 class="special_content-heading">POINT4</h3>
+                    <div class="special_point">
+                        <div class="special_point-top">
+                            <p class="special_point-heading">
+                                受講中はもちろん、<br />卒業後も継続サポート！
+                            </p>
+                        </div>
+                        <div class="special_point-bottom">
+                            <p class="special_point-text">
+                                スクール卒業後も<br />コミュニティに在籍できる
+                            </p>
+                            <img src="" alt="" class="special_point-img" />
+                        </div>
+                    </div>
+                </div>
+                <!-- point2 -->
+                <div class="special_content">
+                    <h3 class="special_content-heading">POINT4</h3>
+                    <div class="special_point">
+                        <div class="special_point-top">
+                            <p class="special_point-heading">
+                                受講中はもちろん、<br />卒業後も継続サポート！
+                            </p>
+                        </div>
+                        <div class="special_point-bottom">
+                            <p class="special_point-text">
+                                スクール卒業後も<br />コミュニティに在籍できる
+                            </p>
+                            <img src="" alt="" class="special_point-img" />
+                        </div>
+                    </div>
+                </div>
+                <!-- point3 -->
+                <div class="special_content">
+                    <h3 class="special_content-heading">POINT4</h3>
+                    <div class="special_point">
+                        <div class="special_point-top">
+                            <p class="special_point-heading">
+                                受講中はもちろん、<br />卒業後も継続サポート！
+                            </p>
+                        </div>
+                        <div class="special_point-bottom">
+                            <p class="special_point-text">
+                                スクール卒業後も<br />コミュニティに在籍できる
+                            </p>
+                            <img src="" alt="" class="special_point-img" />
+                        </div>
+                    </div>
+                </div>
+                <!-- point4 -->
+                <div class="special_content">
+                    <h3 class="special_content-heading">POINT4</h3>
+                    <div class="special_point">
+                        <div class="special_point-top">
+                            <p class="special_point-heading">
+                                受講中はもちろん、<br />卒業後も継続サポート！
+                            </p>
+                        </div>
+                        <div class="special_point-bottom">
+                            <p class="special_point-text">
+                                スクール卒業後も<br />コミュニティに在籍できる
+                            </p>
+                            <img src="" alt="" class="special_point-img" />
+                        </div>
+                    </div>
+                </div>
+                <!-- point5 -->
+                <div class="special_content">
+                    <h3 class="special_content-heading">POINT4</h3>
+                    <div class="special_point">
+                        <div class="special_point-top">
+                            <p class="special_point-heading">
+                                受講中はもちろん、<br />卒業後も継続サポート！
+                            </p>
+                        </div>
+                        <div class="special_point-bottom">
+                            <p class="special_point-text">
+                                スクール卒業後も<br />コミュニティに在籍できる
+                            </p>
+                            <img src="" alt="" class="special_point-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="special_button">
+                <!-- 共通化 -->
+            </div>
+        </section>
+        <div class="animation">アニメーションサンプル</div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const fingerImage = document.getElementById("reason_finger");
+                console.log(fingerImage);
+
+                // アニメーションを停止する例
+                fingerImage.addEventListener("click", function () {
+                    this.style.animationPlayState = "paused";
+                });
+            });
+        </script>
     </body>
 </html>

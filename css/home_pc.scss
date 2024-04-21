@@ -1,8 +1,28 @@
-// MEMO font-sizeをpx→vwにする
+
+
+// フォント読み込み
+@font-face {
+    font-family: "hakobera_regular";
+    src: url("../font/HakoberaMaruGothicA/HakoberaMaruGothicA/HakoberaMaruGothicA-Regular.ttf")
+        format("truetype");
+}
+@font-face {
+    font-family: "hakobera_bold";
+    src: url("../font/HakoberaMaruGothicA/HakoberaMaruGothicA/HakoberaMaruGothicA-Bold.ttf")
+        format("truetype");
+}
+@font-face {
+    font-family: "hakobera_extra_bold";
+    src: url("../font/HakoberaMaruGothicA/HakoberaMaruGothicA/HakoberaMaruGothicA-ExtraBold.ttf")
+        format("truetype");
+}
+
+
+//　共通
 
 $background-width: 100%;
 $background-position: relative;
-//---- all ----
+
 body {
     background-color: rgba(137, 195, 235, 0.7);
 }
@@ -12,6 +32,15 @@ body {
     max-width: 1050px;
     min-width: 850px;
     margin: 0 auto;
+}
+
+.line_btn{
+    :hover {
+        opacity: 0.8; 
+    }
+    :active {
+        transform: translateY(1px);
+    }
 }
 
 //---- top ----
@@ -53,13 +82,14 @@ body {
 
 .contents_word {
     font-size: clamp(17px, 2.0vw, 21px);
+    font-family: "hakobera_regular";
     position: absolute;
     top: 18%;
     text-align: center;
     line-height: 1.3;
 }
 
-.line-btn {
+.top_linebtn {
     display: inline-block;
     position: absolute;
     top: 100%;
@@ -73,7 +103,7 @@ body {
     }
 }
 
-// ----concerns----
+//  ----concerns----
 
 .concerns_background {
     background-image: url('/image/pc/concerns/concerns_bg.png');
@@ -96,6 +126,8 @@ body {
     h2 {
         color: white;
         font-size: 28px;
+        font-family: "hakobera_extra_bold";
+        -webkit-text-stroke: 0.8px black;
         line-height: 1.5;
         vertical-align: bottom;
     }
@@ -137,7 +169,7 @@ body {
     flex-direction: column;
     transform: translate(75%, 0);
     width: 18%; 
-    margin-top: -35%;
+    margin-top: -28%;
 }
 
 .concern2_bubble {
@@ -154,7 +186,7 @@ body {
     flex-direction: column;
     transform: translate(-172%, 0);
     width: 18%;
-    margin-top: -10%;
+    margin-top: -18%;
 }
 
 .concern3_bubble {
@@ -205,6 +237,7 @@ body {
 
 .skill_word {
     font-size: clamp(16px, 2.0vw, 21px);
+    font-family: "hakobera_bold";
     position: absolute;
     bottom: 8%;
     text-align: center;
@@ -373,8 +406,9 @@ body {
 
 .stu_comment p {
     width: 75%;
-    line-height: 20px;
-    font-size: clamp(8px, 1.0vw, 12px);
+    line-height: 1.5;
+    font-size: clamp(9px, 1.1vw, 12px);
+    font-family: "hakobera_regular";
 }
 
 .stu_human {
@@ -387,7 +421,7 @@ body {
     position: absolute;
     width: 90%;
     background-color: #89c3eb;
-    padding: 15px 0px;
+    padding: 15px 10px;
     margin: -30px auto;
     border-radius: 10px;
     left: 0;
@@ -407,9 +441,9 @@ body {
 
 .blue_box3 {
     position: absolute;
-    width: 90%;
+    width: 95%;
     background-color: #89c3eb;
-    padding: 15px 5px;
+    padding: 15px 10px;
     margin: -52px auto;
     border-radius: 10px;
     left: 0;
@@ -419,7 +453,7 @@ body {
 .white_txt {
     color: white;
     font-size: clamp(10px, 1.0vw, 13px);
-    font-weight: bold;
+    font-family: "hakobera_bold";
     line-height: 1.2;
     letter-spacing: 1.5px;
 }
@@ -427,7 +461,7 @@ body {
 .white_txt2 {
     color: white;
     font-size: clamp(10px, 1.0vw, 13px);
-    font-weight: bold;
+    font-family: "hakobera_bold";
     line-height: 1.2;
     letter-spacing: 1.5px;
 }
@@ -553,14 +587,14 @@ body {
     .white_text {
         color: white;
         font-size: 0.9rem;
-        font-weight: bold;
+        font-family: "hakobera_bold";
         margin-top: 0px;
         margin-bottom: 0px;
     }
 
     .black_text {
-        font-weight: bold;
         font-size: 1rem;
+        font-family: "hakobera_bold";
         line-height: 1.5;
         padding-top: 0.7rem;
         margin-top: 0px;
@@ -569,6 +603,7 @@ body {
 
     .small-text {
         font-size: 10px;
+        font-family: "hakobera_regular";
         letter-spacing: -3px;
     }
 
@@ -601,8 +636,8 @@ body {
     }
     .black_box3 {
         position: relative;
-        height: 390px;
-        aspect-ratio: 3.3/ 4;
+        height: 330px;
+        aspect-ratio: 4.0/ 4;
         padding: 20px 0px;
         border: black solid 1px;
         display: flex;
@@ -615,8 +650,8 @@ body {
 
     .black_box4 {
         position: relative;
-        height: 400px;
-        aspect-ratio: 3.7/ 4;
+        height: 340px;
+        aspect-ratio: 4.3/ 4;
         padding: 15px 0px;
         border: black solid 1px;
         display: flex;
@@ -643,13 +678,13 @@ body {
     .white_text {
         color: white;
         font-size: 1rem;
-        font-weight: bold;
+        font-family: "hakobera_bold";
         margin-top: 0px;
         margin-bottom: 0px;
     }
 
     .black_text {
-        font-weight: bold;
+        font-family: "hakobera_bold";
         font-size: 1.2rem;
         line-height: 1.5;
         padding-top: 2.4rem;
@@ -671,8 +706,7 @@ body {
 .contents_line {
     position: absolute;
     bottom: 15%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     width: 100%;
     img {
         width: 55%;
@@ -684,8 +718,8 @@ body {
     position: absolute;
     bottom: 8%;
     text-align: center;
-    font-size: clamp(17px, 2.0vw, 21px);
+    font-size: clamp(16px, 2.0vw, 18px);
     color: white;
-    font-weight: normal;
+    font-family: "hakobera_regular";
     width: 100%;
 }

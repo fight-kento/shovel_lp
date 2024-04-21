@@ -80,7 +80,7 @@ body {
     background-size: cover; /* 画像がdivの全面を覆うようにします */
     background-position: center; /* 画像がdivの中央に位置するようにします */
     background-repeat: no-repeat; /* 画像が繰り返し表示されないようにします */
-
+    padding-top:24px;
 }
 
 
@@ -89,8 +89,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 15px 0;
-    width: 70%;
-    // height: 12%;
+    text-align: center;
+    width: 65%;
     z-index: 1;
     background-color: #89c3eb;
     h2 {
@@ -101,8 +101,10 @@ body {
     }
 }
 
+
+
+
 .concerns_case {
-    border: red 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center; /* 子要素を垂直方向の中央に揃える */
@@ -117,55 +119,51 @@ body {
 .concern1 {
     display: flex;
     flex-direction: column;
-    transform: translate(-8%, 0);
-    width: 20%; /* 各concernの幅を20%に設定 */
-    height: auto;
-    margin: auto; /* 中央揃え */
+    transform: translate(-100%, 0);
+    width: 22%; 
 }
 
 .concern1_bubble {
-    transform: translate(-50%, 0);
-    width: 150%;
+    width: 161%;
 }
 
 .concern1_human {
-    transform: translate(-30%, -38%);
+    transform: translate(50%, 0);
+    margin-top:-60%
 }
 
 .concern2 {
     display: flex;
     flex-direction: column;
-    transform: translate(40%, -50%);
-    width: 20%; /* 各concernの幅を20%に設定 */
-    height: auto;
-    margin: auto; /* 中央揃え */
+    transform: translate(75%, 0);
+    width: 18%; 
+    margin-top: -35%;
 }
 
 .concern2_bubble {
-    transform: translate(50%, 0);
-    width: 150%;
+    width: 200%;
 }
 
 .concern2_human {
-    transform: translate(72%, -28%);
+    transform: translate(23%, 0);
+    margin-top:-60%
 }
 
 .concern3 {
     display: flex;
     flex-direction: column;
-    transform: translate(-70%, -114%);
-    width: 20%; /* 各concernの幅を20%に設定 */
-    height: auto;
-    margin: auto; /* 中央揃え */
+    transform: translate(-172%, 0);
+    width: 18%;
+    margin-top: -10%;
 }
 
 .concern3_bubble {
-    transform: translate(-50%, 0);
-    width: 150%;
+    width: 194%;
 }
 
 .concern3_human {
-    transform: translate(-30%, -38%);
+    transform: translate(75%, 0);
+    margin-top:-80%;
 }
 
 // -----qualities-----
@@ -337,7 +335,7 @@ body {
 
 .stu {
     position: absolute;
-    top: 18%;
+    top: 15%;
     left: 0;
     width: 100%;
 }
@@ -351,14 +349,14 @@ body {
 }
 
 .stu_bubble1 {
-    width: 45%;
-    margin-right: 5%;
+    width: 48%;
+    margin-right: 2%;
     position: relative;
 }
 
 .stu_bubble2 {
-    width: 45%;
-    margin-left: 5%;
+    width: 48%;
+    margin-left: 2%;
     position: relative;
 }
 
@@ -375,22 +373,44 @@ body {
 
 .stu_comment p {
     width: 75%;
-    line-height: normal;
-    font-size: clamp(9px, 1.1vw, 11px);
+    line-height: 20px;
+    font-size: clamp(8px, 1.0vw, 12px);
 }
 
 .stu_human {
-    width: 25%;
+    width: 22%;
     position: relative;
     top: 72px;
 }
 
-.blue_box {
+.blue_box1 {
     position: absolute;
-    width: 250px;
+    width: 90%;
     background-color: #89c3eb;
-    padding: 20px 10px;
+    padding: 15px 0px;
     margin: -30px auto;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+}
+
+.blue_box2 {
+    position: absolute;
+    width: 90%;
+    background-color: #89c3eb;
+    padding: 15px 5px;
+    margin: -52px auto;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+}
+
+.blue_box3 {
+    position: absolute;
+    width: 90%;
+    background-color: #89c3eb;
+    padding: 15px 5px;
+    margin: -52px auto;
     border-radius: 10px;
     left: 0;
     right: 0;
@@ -398,10 +418,18 @@ body {
 
 .white_txt {
     color: white;
-    font-size: 14px;
+    font-size: clamp(10px, 1.0vw, 13px);
     font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+}
+
+.white_txt2 {
+    color: white;
+    font-size: clamp(10px, 1.0vw, 13px);
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
 }
 
 // ----inst----

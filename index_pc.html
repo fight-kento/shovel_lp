@@ -9,13 +9,13 @@
         <link rel="stylesheet" href="css/home_pc.css" />
         <script>
             document.addEventListener("DOMContentLoaded", function () {
-              const breakpoint = window.matchMedia("(max-width: 599px)");
-              // ブレイクポイントの状態が変更されたときのイベントリスナー
-              breakpoint.addEventListener("change", (e) => {
-                  window.location.href = "init.html";
-              });
+                const breakpoint = window.matchMedia("(max-width: 599px)");
+                // ブレイクポイントの状態が変更されたときのイベントリスナー
+                breakpoint.addEventListener("change", (e) => {
+                    window.location.href = "index.html";
+                });
             });
-          </script>
+        </script>
     </head>
     <!-- MEMO: （全体を通して）画像多めの構造のため、適宜コメント残しておいた方が保守的にも楽そう（id名でわかりそうだが） -->
     <!-- MEMO: （全体を通して）画像読み込みにめちゃくちゃ時間かかってる。loading=”lazy”とか使うとましになりそう -->

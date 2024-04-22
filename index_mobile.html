@@ -8,20 +8,20 @@
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/home_mobile.css" />
         <script>
-            document.addEventListener("DOMContentLoaded", function () {
-              const breakpoint = window.matchMedia("(max-width: 599px)");
-              // ブレイクポイントの状態が変更されたときのイベントリスナー
-              breakpoint.addEventListener("change", (e) => {
-                if (e.matches) {
-                  // ブレイクポイントに達した場合、init.htmlをリロード
-                  window.location.href = "init.html";
-                } else {
-                  // ブレイクポイントから離れた場合も必要に応じて何か処理を行う
-                  window.location.href = "init.html";
-                }
-              });
-            });
-          </script>
+            // document.addEventListener("DOMContentLoaded", function () {
+            //   const breakpoint = window.matchMedia("(max-width: 599px)");
+            //   // ブレイクポイントの状態が変更されたときのイベントリスナー
+            //   breakpoint.addEventListener("change", (e) => {
+            //     if (e.matches) {
+            //       // ブレイクポイントに達した場合、init.htmlをリロード
+            //       window.location.href = "init.html";
+            //     } else {
+            //       // ブレイクポイントから離れた場合も必要に応じて何か処理を行う
+            //       window.location.href = "init.html";
+            //     }
+            //   });
+            // });
+        </script>
     </head>
     <body>
         <section class="top" id="top">
@@ -37,6 +37,9 @@
                     src="./image/mobile/top/top_words 1.svg"
                     alt=""
                 />
+                <div class="top_subttl">
+                    <p>喋る力で<br />キャリアを加速する</p>
+                </div>
                 <div class="top_circle circle1">
                     <div class="relative">
                         <img
@@ -77,16 +80,13 @@
         </section>
 
         <section class="consultation" id="consultation">
-            <!-- 共通 -->
             <a
                 class="consultation_button contact_button"
-                href="#"
+                href="https://lin.ee/KYFfJyf"
                 class="consultation_button"
             >
-                <!-- 申し込み画像 -->
                 <img src="./image/mobile/common/btn_sp.svg" alt="" />
             </a>
-            <!-- 共通ここまで -->
             <div class="consultation_textarea">
                 <img
                     src="./image/mobile/consultation/annoy.png"
@@ -274,13 +274,11 @@
                             class="support_content-img"
                             src="./image/mobile/support/support_img2.svg"
                             alt=""
-                            class="support_content-img"
                         />
                         <img
                             class="support_content-bubble"
                             src="./image/mobile/support/point4_bubble.svg"
                             alt=""
-                            class="support_content-img"
                         />
                     </div>
                     <p class="support_content-text">
@@ -289,7 +287,10 @@
                 </div>
             </div>
             <div class="support_button">
-                <!-- 共通化 -->
+                <a class="_button contact_button" href="https://lin.ee/KYFfJyf">
+                    <!-- 申し込み画像 -->
+                    <img src="./image/mobile/common/btn_sp.svg" alt="" />
+                </a>
             </div>
         </section>
 
@@ -335,7 +336,10 @@
                 />
             </div>
             <!-- 申し込みボタン -->
-            <a class="reason_button contact_button" href="#">
+            <a
+                class="reason_button contact_button"
+                href="https://lin.ee/KYFfJyf"
+            >
                 <!-- 申し込み画像 -->
                 <img src="./image/mobile/common/btn_sp.svg" alt="" />
             </a>
@@ -463,14 +467,12 @@
                     alt=""
                     class="coach_heading-img"
                 />
-                <!-- <div class="coach_heading-person"> -->
                 <img
                     src="./image/mobile/coach/coach_photo.png"
                     alt=""
                     class="coach_heading-coachPhoto"
                 />
                 <p class="coach_heading-coachName">(講師：坂田 航)</p>
-                <!-- </div> -->
             </div>
             <div class="coach_textarea">
                 <h3 class="coach_textarea-heading">
@@ -485,8 +487,7 @@
                     思っていても、それを実現できる環境にいなくて現状に
                     不満を抱える方をたくさん見てきました。
                     （というか僕もそうでした。）
-                    そんな思いを持った人が一歩を踏み出す
-                     サポートをするため、
+                    そんな思いを持った人が一歩を踏み出す サポートをするため、
                     そしてあなたらしさを活かした働き方を実現するため、
                     スクールを通して尽力して参りたいと思っています！
                 </p>
@@ -495,7 +496,11 @@
 
         <section class="special" id="special">
             <div class="special_heading">
-                <img src="./image/mobile/special/contents_ttl.svg" alt="" class="special-img" />
+                <img
+                    src="./image/mobile/special/contents_ttl.svg"
+                    alt=""
+                    class="special-img"
+                />
             </div>
             <div class="special_contents">
                 <!-- point_ -->
@@ -511,7 +516,11 @@
                             <p class="special_point-text">
                                 個別のカリキュラムで<br />ステップアップ！
                             </p>
-                            <img src="./image/mobile/special/point1.png" alt="" class="special_point-img" />
+                            <img
+                                src="./image/mobile/special/point1.png"
+                                alt=""
+                                class="special_point-img"
+                            />
                         </div>
                     </div>
                 </div>
@@ -528,7 +537,11 @@
                             <p class="special_point-text">
                                 ＰＭを見据えた<br />実務経験が積める！
                             </p>
-                            <img src="./image/mobile/special/point2.png" alt="" class="special_point-img" />
+                            <img
+                                src="./image/mobile/special/point2.png"
+                                alt=""
+                                class="special_point-img"
+                            />
                         </div>
                     </div>
                 </div>
@@ -545,7 +558,11 @@
                             <p class="special_point-text">
                                 いつでも何度でも質問OK！<br />徹底的なサポート体制
                             </p>
-                            <img src="./image/mobile/special/point3.png" alt="" class="special_point-img" />
+                            <img
+                                src="./image/mobile/special/point3.png"
+                                alt=""
+                                class="special_point-img"
+                            />
                         </div>
                     </div>
                 </div>
@@ -559,12 +576,18 @@
                             </p>
                         </div>
                         <div class="special_point-bottom">
-                            <p class="special_point-text" style="margin-top: 10%; margin-bottom: 10%;">
+                            <p
+                                class="special_point-text"
+                                style="margin-top: 10%; margin-bottom: 10%"
+                            >
                                 スクール卒業後も<br />コミュニティに在籍できる
                             </p>
-                            <br>
-                            <p class="special_point-text" style="margin-bottom: 20%;">
-                                正社員〜フリーランスなど<br>幅広いキャリアプランをご提案
+                            <br />
+                            <p
+                                class="special_point-text"
+                                style="margin-bottom: 20%"
+                            >
+                                正社員〜フリーランスなど<br />幅広いキャリアプランをご提案
                             </p>
                         </div>
                     </div>
@@ -573,21 +596,30 @@
                 <div class="special_content">
                     <h3 class="special_content-heading">POINT5</h3>
                     <div class="special_point">
-                            <img src="./image/mobile/special/contents_p5_body.svg" alt="" class="special_point-img2" />
-                        </div>
+                        <img
+                            src="./image/mobile/special/contents_p5_body.svg"
+                            alt=""
+                            class="special_point-img2"
+                        />
                     </div>
                 </div>
             </div>
             <div class="special_button">
-                <a class="reason_button contact_button" href="#">
+                <a
+                    class="reason_button contact_button"
+                    href="https://lin.ee/KYFfJyf"
+                >
                     <!-- 申し込み画像 -->
                     <img src="./image/mobile/common/btn_sp.svg" alt="" />
                 </a>
             </div>
             <div class="copyright">
-                <p>Copyright © 2024 Shovel Engineer Inc. All rights reserved.</p>
+                <p>
+                    Copyright © 2024 Shovel Engineer Inc. All rights reserved.
+                </p>
             </div>
         </section>
+
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const fingerImage = document.getElementById("reason_finger");

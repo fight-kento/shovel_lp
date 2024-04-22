@@ -12,13 +12,7 @@
               const breakpoint = window.matchMedia("(max-width: 599px)");
               // ブレイクポイントの状態が変更されたときのイベントリスナー
               breakpoint.addEventListener("change", (e) => {
-                if (e.matches) {
-                  // ブレイクポイントに達した場合、init.htmlをリロード
                   window.location.href = "init.html";
-                } else {
-                  // ブレイクポイントから離れた場合も必要に応じて何か処理を行う
-                  window.location.href = "init.html";
-                }
               });
             });
           </script>

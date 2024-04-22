@@ -532,7 +532,7 @@ img {
   margin-bottom: 0px;
 }
 .special_point-text {
-  font-size: 3.5vw;
+  font-size: 4.5vw;
   font-family: "hakobera_bold";
   line-height: 1.2;
   padding-top: 0.7rem;
@@ -540,7 +540,7 @@ img {
 .special_point-img {
   margin: 0 auto;
   padding-bottom: 7%;
-  width: 80%;
+  width: 100%;
 }
 .special_point-img2 {
   margin-top: 3%;
@@ -557,4 +557,4 @@ img {
   color: #fff;
   font-family: "hakobera_regular";
   width: 100%;
-}
+}/*# sourceMappingURL=home_mobile.css.map */

@@ -416,6 +416,9 @@ img {
   font-size: 1.4rem;
 }
 
+.coach {
+  padding-bottom: 4%;
+}
 .coach_heading {
   position: relative;
   padding-top: 5%;
@@ -465,10 +468,10 @@ img {
   font-family: "hakobera_regular";
   font-size: 3.5vw;
   line-height: 1.5;
-  text-align: center;
+  text-align: justify;
   padding-top: 2.4rem;
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
+  padding-left: 5vw;
+  padding-right: 5vw;
   padding-bottom: 4.2rem;
 }
 
@@ -483,7 +486,7 @@ img {
   display: block;
 }
 .special_contents {
-  margin-top: 12%;
+  margin-top: 8%;
   margin-left: 7vw;
   margin-right: 7vw;
 }
@@ -493,7 +496,7 @@ img {
 .special_content-heading {
   display: inline-block;
   color: #fff;
-  background-color: #D74545;
+  background-color: #d74545;
   font-family: "hakobera_bold";
   font-size: 5.4vw;
   padding: 2.4vw 9vw;
@@ -522,14 +525,14 @@ img {
 }
 .special_point-heading {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 4vw;
   line-height: 1.5;
   font-family: "hakobera_bold";
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .special_point-text {
-  font-size: 1.8rem;
+  font-size: 3.5vw;
   font-family: "hakobera_bold";
   line-height: 1.2;
   padding-top: 0.7rem;
@@ -554,4 +557,4 @@ img {
   color: #fff;
   font-family: "hakobera_regular";
   width: 100%;
-}/*# sourceMappingURL=home_mobile.css.map */
+}

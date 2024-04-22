@@ -8,19 +8,13 @@
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/home_mobile.css" />
         <script>
-            // document.addEventListener("DOMContentLoaded", function () {
-            //   const breakpoint = window.matchMedia("(max-width: 599px)");
-            //   // ブレイクポイントの状態が変更されたときのイベントリスナー
-            //   breakpoint.addEventListener("change", (e) => {
-            //     if (e.matches) {
-            //       // ブレイクポイントに達した場合、init.htmlをリロード
-            //       window.location.href = "init.html";
-            //     } else {
-            //       // ブレイクポイントから離れた場合も必要に応じて何か処理を行う
-            //       window.location.href = "init.html";
-            //     }
-            //   });
-            // });
+            document.addEventListener("DOMContentLoaded", function () {
+                const breakpoint = window.matchMedia("(max-width: 599px)");
+                // ブレイクポイントの状態が変更されたときのイベントリスナー
+                breakpoint.addEventListener("change", (e) => {
+                    window.location.href = "init.html";
+                });
+            });
         </script>
     </head>
     <body>

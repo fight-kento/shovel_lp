@@ -18,7 +18,7 @@ body {
 .body_container {
   background-color: white;
   max-width: 1050px;
-  min-width: 850px;
+  min-width: 600px;
   margin: 0 auto;
 }
 
@@ -683,4 +683,4 @@ body {
   color: white;
   font-family: "hakobera_regular";
   width: 100%;
-}/*# sourceMappingURL=home_pc.css.map */
+}

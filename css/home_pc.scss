@@ -89,7 +89,7 @@ body {
 }
 
 .contents_word {
-    font-size: clamp(17px, 2vw, 21px);
+    font-size: clamp(12px, 2.2vw, 21px);
     font-family: "hakobera_regular";
     position: absolute;
     top: 18%;
@@ -132,7 +132,7 @@ body {
     background-color: #89c3eb;
     h2 {
         color: white;
-        font-size: 28px;
+        font-size: clamp(17px, 2.4vw, 26px);
         font-family: "hakobera_extra_bold";
         -webkit-text-stroke: 0.8px black;
         line-height: 1.5;
@@ -519,10 +519,29 @@ body {
     top: 20%;
 }
 
+.point1{
+    width: 25%;
+}
+.point2{
+    width: 30%;
+}
+.point3{
+    width: 25%;
+}
+
+.point4{
+    width: 40%;
+}
+.point5{
+    width: 40%;
+}
+
+
 .contents_row1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
     .point_heading {
         display: inline-block;
@@ -536,8 +555,6 @@ body {
     }
     .black_box1 {
         position: relative;
-        height: 250px;
-        aspect-ratio: 3.5/ 4;
         padding: 10px 0px;
         border: black solid 1px;
         display: flex;
@@ -550,8 +567,6 @@ body {
 
     .black_box2 {
         position: relative;
-        height: 250px;
-        aspect-ratio: 3.8/ 4;
         padding: 10px 0px;
         border: black solid 1px;
         display: flex;
@@ -590,17 +605,18 @@ body {
 
     .white_text {
         color: white;
-        font-size: 0.9rem;
+        font-size: clamp(10px, 1.6vw, 18px);
         font-family: "hakobera_bold";
         margin-top: 0px;
         margin-bottom: 0px;
     }
 
     .black_text {
-        font-size: 1rem;
+        font-size: clamp(10px, 1.6vw, 18px);
         font-family: "hakobera_bold";
         line-height: 1.5;
         padding-top: 0.7rem;
+        padding-bottom: 52%;
         margin-top: 0px;
         margin-bottom: 0px;
     }
@@ -614,7 +630,7 @@ body {
     .img_box {
         position: absolute;
         margin: 0 auto;
-        padding-bottom: 7%;
+        padding-bottom: 2%;
         bottom: 0;
         img {
             width: 55%;
@@ -641,8 +657,6 @@ body {
     }
     .black_box3 {
         position: relative;
-        height: 300px;
-        aspect-ratio: 4.5/ 4;
         padding: 20px 0px;
         border: black solid 1px;
         display: flex;
@@ -655,9 +669,7 @@ body {
 
     .black_box4 {
         position: relative;
-        height: 310px;
-        aspect-ratio: 4.7/ 4;
-        padding: 15px 0px;
+        padding: 47.3% 0px;
         border: black solid 1px;
         display: flex;
         flex-direction: column;
@@ -682,7 +694,7 @@ body {
 
     .white_text {
         color: white;
-        font-size: 1rem;
+        font-size: clamp(12px, 1.6vw, 18px);
         font-family: "hakobera_bold";
         margin-top: 0px;
         margin-bottom: 0px;
@@ -690,16 +702,24 @@ body {
 
     .black_text {
         font-family: "hakobera_bold";
-        font-size: 1.2rem;
+        font-size: clamp(15px, 2.2vw, 24px);
         line-height: 1.5;
-        padding-top: 2.4rem;
+        padding-top: 5%;
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 5%;
     }
 
+    .black_text2 {
+        font-family: "hakobera_bold";
+        font-size: clamp(15px, 2.2vw, 24px);
+        line-height: 1.5;
+        margin-top: 0px;
+        margin-bottom: 20%;
+    }
     .img_box {
         position: absolute;
         margin: 0 auto;
+        top: 4%;
         img {
             width: 72%;
             vertical-align: bottom;

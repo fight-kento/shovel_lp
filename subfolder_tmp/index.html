@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shovel Engineer</title>
+        <!-- sample -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                if (
+                    window.innerWidth > 599
+                    // ||navigator.userAgent.match(/iPhone|Android.+Mobile/)
+                ) {
+                    window.location.href = "index_pc.html"; // PC用のページ
+                } else {
+                    window.location.href = "index_mobile.html"; // スマートフォン用のページ
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <p>ページが読み込まれています。しばらくお待ちください...</p>
+    </body>
+</html>
